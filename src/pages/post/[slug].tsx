@@ -24,7 +24,7 @@ const Post: NextPage<Props> = ({ post }) => {
 
       <Header />
 
-      <div className="pt-10">
+      <div className="py-10">
         <h1 className="text-4xl font-bold font-serif">{post.metadata.title}</h1>
         <div className="flex gap-1 pt-2">
           {post.metadata.tags.map((tag: any, key: any) => (

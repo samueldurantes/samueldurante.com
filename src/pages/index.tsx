@@ -39,12 +39,12 @@ const Home: NextPage<Props> = ({ posts }) => {
       <div className="divide-y">
         <h1 className="pt-10 pb-5 text-2xl">Posts:</h1>
         {posts.map((post: Post, key: number) => (
-          <div className="py-10" key={key}>
+          <div className="flex flex-col gap-1 py-10" key={key}>
             <p className="text-sm" key={key}>
               {post.metadata.date}
             </p>
             <Link href={`/post/${post.metadata.slug}`}>
-              <a className="underline text-xl text-blue-600 hover:text-blue-800 visited:text-purple-600">
+              <a className="text-xl text-blue-800 hover:underline">
                 {post.metadata.title}
               </a>
             </Link>

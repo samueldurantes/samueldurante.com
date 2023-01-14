@@ -1,32 +1,21 @@
-import type { NextPage } from 'next';
+import type { NextPage, GetStaticProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 import Markdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
 import Header from '../../components/Header';
-import { useFetch } from '../../hooks/useFetch';
+import { getAllPosts, getPostBySlug } from '../../../lib/posts';
+import type { Post as PostType } from '../../../lib/posts';
 
-const Post: NextPage = () => {
-  const router = useRouter();
-  const { data } = useFetch(`/api/post/${router.query.slug}`);
+type Props = {
+  post: PostType;
+};
 
-  if (!data) {
-    return (
-      <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
-        <Head>
-          <title>Blog</title>
-        </Head>
+type QueryParams = {
+  slug?: string;
+};
 
-        <Header />
-
-        <div className="pt-10">
-          <p>Loading...</p>
-        </div>
-      </div>
-    );
-  }
-
+const Post: NextPage<Props> = ({ post }) => {
   return (
     <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
       <Head>
@@ -36,9 +25,9 @@ const Post: NextPage = () => {
       <Header />
 
       <div className="pt-10">
-        <h1 className="text-4xl font-bold font-serif">{data.data.title}</h1>
+        <h1 className="text-4xl font-bold font-serif">{post.metadata.title}</h1>
         <div className="flex gap-1 pt-2">
-          {data.data.tags.map((tag: any, key: any) => (
+          {post.metadata.tags.map((tag: any, key: any) => (
             <p className="italic text-sm font-serif" key={key}>{`#${tag}`}</p>
           ))}
         </div>
@@ -67,12 +56,12 @@ const Post: NextPage = () => {
                     {String(children).replace(/\n$/, '')}
                   </SyntaxHighlighter>
                 ) : (
-                  <code className='bg-gray-100 p-1 rounded'>{children}</code>
+                  <code className="bg-gray-100 p-1 rounded">{children}</code>
                 );
               },
             }}
           >
-            {data.content}
+            {post.content}
           </Markdown>
         </div>
       </div>
@@ -81,3 +70,29 @@ const Post: NextPage = () => {
 };
 
 export default Post;
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await getAllPosts();
+
+  const paths = posts.map((post) => ({ params: { slug: post.metadata.slug } }));
+
+  return { paths, fallback: false };
+};
+
+export const getStaticProps: GetStaticProps<Props, QueryParams> = async ({
+  params,
+}) => {
+  const post = await getPostBySlug(params?.slug);
+
+  if (!post) {
+    throw new Error(
+      "This post doesn't exist! Please, try again with some correct slug!"
+    );
+  }
+
+  return {
+    props: {
+      post,
+    },
+  };
+};

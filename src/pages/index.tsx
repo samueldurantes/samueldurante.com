@@ -1,14 +1,17 @@
-import type { NextPage } from 'next';
+import type { NextPage, GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 
 import Header from '../components/Header';
-import { useFetch } from '../hooks/useFetch';
+import { getAllPosts } from '../../lib/posts';
+import type { Posts, Post } from '../../lib/posts';
 
-const Home: NextPage = () => {
-  const { data } = useFetch('/api/posts');
+type Props = {
+  posts: Posts;
+};
 
-  if (!data) {
+const Home: NextPage<Props> = ({ posts }) => {
+  if (posts.length <= 0) {
     return (
       <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
         <Head>
@@ -17,8 +20,9 @@ const Home: NextPage = () => {
 
         <Header />
 
-        <div className="pt-10">
-          <p>Loading...</p>
+        <div className="divide-y">
+          <h1 className="pt-10 pb-5 text-2xl">Posts:</h1>
+          <p className="py-10">No posts found.</p>
         </div>
       </div>
     );
@@ -33,15 +37,25 @@ const Home: NextPage = () => {
       <Header />
 
       <div className="divide-y">
-        <h1 className='pt-10 pb-5 text-2xl font-bold'>
-          Latest posts:
-        </h1>
-        {data.map((post: any, key: any) => (
+        <h1 className="pt-10 pb-5 text-2xl">Posts:</h1>
+        {posts.map((post: Post, key: number) => (
           <div className="py-10" key={key}>
-            <Link href={`/post/${post.slug}`}>
-              <a className="text-xl underline">{post.title}</a>
+            <p className="text-sm" key={key}>
+              {post.metadata.date}
+            </p>
+            <Link href={`/post/${post.metadata.slug}`}>
+              <a className="underline text-xl text-blue-600 hover:text-blue-800 visited:text-purple-600">
+                {post.metadata.title}
+              </a>
             </Link>
-            <p className="pt-4">{post.description}</p>
+            <div className="flex gap-1" key={key}>
+              {post?.metadata?.tags?.map((tag: string, key: number) => (
+                <p
+                  className="italic text-sm font-serif"
+                  key={key}
+                >{`#${tag}`}</p>
+              ))}
+            </div>
           </div>
         ))}
       </div>
@@ -50,3 +64,13 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const posts = await getAllPosts();
+
+  return {
+    props: {
+      posts,
+    },
+  };
+};

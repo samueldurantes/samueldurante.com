@@ -15,7 +15,7 @@ const Home: NextPage<Props> = ({ posts }) => {
     return (
       <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
         <Head>
-          <title>Blog</title>
+          <title>Samuel Durante Blog</title>
         </Head>
 
         <Header />
@@ -31,7 +31,7 @@ const Home: NextPage<Props> = ({ posts }) => {
   return (
     <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
       <Head>
-        <title>Blog</title>
+        <title>Samuel Durante Blog</title>
       </Head>
 
       <Header />

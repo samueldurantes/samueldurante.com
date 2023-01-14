@@ -20,7 +20,7 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
       <Head>
-        <title>Blog</title>
+        <title>Samuel Durante Blog - About</title>
       </Head>
 
       <Header />
@@ -33,10 +33,11 @@ const About: NextPage = () => {
         <div className="flex flex-col gap-4">
           <p>
             My name is Samuel, I am 18 years old and currently studying
-            Mathematics. My interests include self-driving cars and functional
-            programming. I am currently working in web development. In my free
-            time, I enjoy learning more about programming and working on
-            personal projects related to my interests.
+            Mathematics. My interests include math, programming language theory,
+            functional programming and self-driving cars. I am currently working
+            in web development. In my free time, I enjoy learning more about
+            programming and working on personal projects related to my
+            interests.
           </p>
           <div className="flex gap-2">
             <p>Reach me on:</p>

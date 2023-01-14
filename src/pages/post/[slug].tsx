@@ -19,7 +19,7 @@ const Post: NextPage<Props> = ({ post }) => {
   return (
     <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
       <Head>
-        <title>Blog</title>
+        <title>{post.metadata.title}</title>
       </Head>
 
       <Header />

@@ -1,7 +1,7 @@
 ---
 id: f1c4cf8d86b65dac53cde0d5a24a07b8
 title: What is the difference between switch-case and pattern matching?
-date: "2022-06-22"
+date: "2022-11-20"
 tags: [programming]
 slug: switch-case-and-pattern-matching
 ---
@@ -65,7 +65,7 @@ printColor color =
     Green -> putStrLn "Green"
 ```
 
-We forgot the `Green` pattern.
+We forgot the `Blue` pattern.
 
 ![image](https://user-images.githubusercontent.com/44513615/202954800-f8c59e3d-6790-4dd4-8483-79f06106e0df.png)
 

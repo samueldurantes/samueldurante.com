@@ -1,5 +1,6 @@
 import type { NextPage, GetStaticProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 import Markdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
@@ -47,6 +48,18 @@ const Post: NextPage<Props> = ({ post }) => {
               h4: ({ children }) => (
                 <h4 className="my-4 text-lg font-bold">{children}</h4>
               ),
+              a: ({ children, href }) => (
+                <Link href={href as string}>
+                  <a
+                    className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                    target="_blank"
+                  >
+                    {children}
+                  </a>
+                </Link>
+              ),
+              ul: ({ children }) => <ul className="mx-4">{children}</ul>,
+              li: ({ children }) => <li className="mx-4 list-disc">{children}</li>,
               p: ({ children }) => <p className="my-4">{children}</p>,
               code: ({ children, className }) => {
                 const language = className?.split('-')[1];

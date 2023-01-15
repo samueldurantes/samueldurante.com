@@ -6,6 +6,8 @@ import Link from 'next/link';
 import Header from '../components/Header';
 
 const About: NextPage = () => {
+  const age = ~~((Date.now() - +new Date('2004-11-26T00:00:00.000Z')) / (31557600000));
+
   const links = [
     {
       name: 'twitter',
@@ -32,12 +34,12 @@ const About: NextPage = () => {
         />
         <div className="flex flex-col gap-4">
           <p>
-            My name is Samuel, I am 18 years old and currently studying
+            {`My name is Samuel, I am ${age} years old and currently studying
             Mathematics. My interests include math, programming language theory,
             functional programming and self-driving cars. I am currently working
             in web development. In my free time, I enjoy learning more about
             programming and working on personal projects related to my
-            interests.
+            interests.`}
           </p>
           <div className="flex gap-2">
             <p>Reach me on:</p>

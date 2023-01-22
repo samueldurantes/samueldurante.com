@@ -11,6 +11,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 ### 2023
 
 - Starter for 10 (2006)
+- Puss in Boots: The Last Wish (2022)
 
 ### Past
 

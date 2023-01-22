@@ -1,7 +1,7 @@
 ---
 id: f1c4cf8d86b65dac53cde0d5a24a07b8
 title: What is the difference between switch-case and pattern matching?
-date: "2022-11-20"
+created_at: "2022-11-20"
 tags: [programming]
 slug: switch-case-and-pattern-matching
 ---

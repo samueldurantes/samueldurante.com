@@ -7,7 +7,8 @@ const postsDirectory = path.join(process.cwd(), '_posts');
 export type PostMetadata = {
   id: string;
   title: string;
-  date: string;
+  created_at: string;
+  updated_at?: string;
   slug: string;
   tags: string[];
   devto?: string;

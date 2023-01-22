@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Markdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import moment from 'moment';
 
 import Header from '../../components/Header';
 import { getAllPosts, getPostBySlug } from '../../../lib/posts';
@@ -27,12 +28,25 @@ const Post: NextPage<Props> = ({ post }) => {
 
       <div className="py-10">
         <h1 className="text-4xl font-bold font-serif">{post.metadata.title}</h1>
+        <div className="flex gap-2 pt-4">
+          <p className="italic text-sm font-serif">
+            Created at: {moment(post.metadata.created_at).format('ll')}
+          </p>
+          {post.metadata.updated_at && (
+            <>
+              <span className="italic text-sm font-serif">{'/'}</span>
+              <p className="italic text-sm font-serif">
+                Updated at: {moment(post.metadata.updated_at).format('ll')}
+              </p>
+            </>
+          )}
+        </div>
         <div className="flex gap-1 pt-2">
+          <p className="italic text-sm font-serif">Tags:</p>
           {post.metadata.tags.map((tag: any, key: any) => (
             <p className="italic text-sm font-serif" key={key}>{`#${tag}`}</p>
           ))}
         </div>
-
         <div className="pt-6">
           <Markdown
             components={{
@@ -59,7 +73,9 @@ const Post: NextPage<Props> = ({ post }) => {
                 </Link>
               ),
               ul: ({ children }) => <ul className="mx-4">{children}</ul>,
-              li: ({ children }) => <li className="mx-4 list-disc">{children}</li>,
+              li: ({ children }) => (
+                <li className="mx-4 list-disc">{children}</li>
+              ),
               p: ({ children }) => <p className="my-4">{children}</p>,
               code: ({ children, className }) => {
                 const language = className?.split('-')[1];

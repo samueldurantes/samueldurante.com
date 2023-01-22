@@ -1,7 +1,8 @@
 ---
 id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
-date: '2023-01-14'
+created_at: '2023-01-14'
+updated_at: '2023-01-22'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---

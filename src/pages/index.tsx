@@ -1,6 +1,7 @@
 import type { NextPage, GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
+import moment from 'moment';
 
 import Header from '../components/Header';
 import { getAllPosts } from '../../lib/posts';
@@ -41,7 +42,7 @@ const Home: NextPage<Props> = ({ posts }) => {
         {posts.map((post: Post, key: number) => (
           <div className="flex flex-col gap-1 py-10" key={key}>
             <p className="text-sm" key={key}>
-              {post.metadata.date}
+              {moment(post.metadata.created_at).format('ll')}
             </p>
             <Link href={`/post/${post.metadata.slug}`}>
               <a className="text-xl text-blue-800 hover:underline">

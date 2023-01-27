@@ -2,7 +2,7 @@
 id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 created_at: '2023-01-14'
-updated_at: '2023-01-22'
+updated_at: '2023-01-27'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---
@@ -13,6 +13,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 
 - Starter for 10 (2006)
 - Puss in Boots: The Last Wish (2022)
+- Black Mass (2015)
 
 ### Past
 

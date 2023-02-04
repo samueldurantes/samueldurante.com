@@ -11,7 +11,19 @@ type Props = {
   posts: Posts;
 };
 
-const Home: NextPage<Props> = ({ posts }) => {
+const Home: NextPage<Props> = ({ posts: _posts }) => {
+  const posts = _posts.sort((a, b) => {
+    if (a.metadata.created_at < b.metadata.created_at) {
+      return 1;
+    }
+
+    if (a.metadata.created_at > b.metadata.created_at) {
+      return -1;
+    }
+
+    return 0;
+  });
+
   if (posts.length <= 0) {
     return (
       <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">

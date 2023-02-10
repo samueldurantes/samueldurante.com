@@ -17,6 +17,10 @@ const About: NextPage = () => {
       name: 'github',
       url: 'https://github.com/samueldurantes',
     },
+    {
+      name: 'devto',
+      url: 'https://dev.to/samueldurante',
+    },
   ];
 
   return (

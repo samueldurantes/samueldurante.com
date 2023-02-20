@@ -112,3 +112,4 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Oh, Ramona! (2019)
 - Paper Towns (2015)
 - The Fault in Our Stars (2014)
+- Pawn Sacrifice (2014)

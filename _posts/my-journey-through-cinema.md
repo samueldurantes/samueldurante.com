@@ -2,7 +2,7 @@
 id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 created_at: '2023-01-14'
-updated_at: '2023-02-21'
+updated_at: '2023-02-24'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---
@@ -18,6 +18,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Just Like Heaven (2005)
 - Love and Other Drugs (2010)
 - 13 Going on 30 (2004)
+- Scent of a Woman (1992)
 
 ### Past
 

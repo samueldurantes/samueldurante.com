@@ -21,6 +21,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Scent of a Woman (1992)
 - Carandiru (2003)
 - My Best Friend's Wedding (1997)
+- The Great Gatsby (2013)
 
 ### Past
 

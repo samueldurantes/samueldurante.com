@@ -2,7 +2,7 @@
 id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 created_at: '2023-01-14'
-updated_at: '2023-03-07'
+updated_at: '2023-03-25'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---
@@ -22,6 +22,16 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Carandiru (2003)
 - My Best Friend's Wedding (1997)
 - The Great Gatsby (2013)
+- Risk Business (1983)
+- Harry Potter and the Philosopher's Stone (2001)
+- Harry Potter and the Chamber of Secrets (2002)
+- Harry Potter and the Prisoner of Azkaban (2004)
+- Harry Potter and the Goblet of Fire (2005)
+- Harry Potter and the Order of Phoenix (2007)
+- Harry Potter and the Half-Blood Prince (2009)
+- Harry Potter and the Deathly Hallows: Part 1 (2010)
+- Harry Potter and the Deathly Hallows: Part 2 (2011)
+- Django Unchained (2012)
 
 ### Past
 

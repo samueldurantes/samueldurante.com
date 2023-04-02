@@ -32,6 +32,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Harry Potter and the Deathly Hallows: Part 1 (2010)
 - Harry Potter and the Deathly Hallows: Part 2 (2011)
 - Django Unchained (2012)
+- Pulp Fiction (1994)
+- John Wick: Chapter 4 (2023)
 
 ### Past
 

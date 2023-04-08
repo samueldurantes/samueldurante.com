@@ -88,6 +88,11 @@ const Post: NextPage<Props> = ({ post }) => {
                   <code className="bg-gray-100 p-1 rounded">{children}</code>
                 );
               },
+              blockquote: ({ children }) => (
+                <blockquote className="border-l-4 pl-4">
+                  {children}
+                </blockquote>
+              ),
             }}
           >
             {post.content}

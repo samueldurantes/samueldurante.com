@@ -2,7 +2,7 @@
 id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 created_at: '2023-01-14'
-updated_at: '2023-04-07'
+updated_at: '2023-04-09'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---
@@ -36,6 +36,9 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - John Wick: Chapter 4 (2023)
 - Godfellas (1990)
 - The Shawshank Redemption (1994)
+- A Clockwork Orange (1971)
+- Knocked Up (2007)
+- The Big Short (2015)
 
 ### Past
 

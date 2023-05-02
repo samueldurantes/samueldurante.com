@@ -2,7 +2,7 @@
 id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 created_at: '2023-01-14'
-updated_at: '2023-04-12'
+updated_at: '2023-05-02'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---
@@ -42,6 +42,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Two Weeks Notice (2002)
 - Shutter Island (2010)
 - Drive (2011)
+- Licorice Pizza (2021)
 
 ### Past
 

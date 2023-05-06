@@ -43,6 +43,9 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Shutter Island (2010)
 - Drive (2011)
 - Licorice Pizza (2021)
+- Bullet Train (2022)
+- Closer (2004)
+- Elis (2016)
 
 ### Past
 

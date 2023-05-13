@@ -63,13 +63,12 @@ const Post: NextPage<Props> = ({ post }) => {
                 <h4 className="my-4 text-lg font-bold">{children}</h4>
               ),
               a: ({ children, href }) => (
-                <Link href={href as string}>
-                  <a
-                    className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-                    target="_blank"
-                  >
-                    {children}
-                  </a>
+                <Link
+                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                  href={href as string}
+                  target="_blank"
+                >
+                  {children}
                 </Link>
               ),
               ul: ({ children }) => <ul className="mx-4">{children}</ul>,
@@ -89,9 +88,7 @@ const Post: NextPage<Props> = ({ post }) => {
                 );
               },
               blockquote: ({ children }) => (
-                <blockquote className="border-l-4 pl-4">
-                  {children}
-                </blockquote>
+                <blockquote className="border-l-4 pl-4">{children}</blockquote>
               ),
             }}
           >

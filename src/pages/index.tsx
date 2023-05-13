@@ -56,10 +56,11 @@ const Home: NextPage<Props> = ({ posts: _posts }) => {
             <p className="text-sm" key={key}>
               {moment(post.metadata.created_at).format('ll')}
             </p>
-            <Link href={`/post/${post.metadata.slug}`}>
-              <a className="text-xl text-blue-800 hover:underline">
-                {post.metadata.title}
-              </a>
+            <Link
+              className="text-xl text-blue-800 hover:underline"
+              href={`/post/${post.metadata.slug}`}
+            >
+              {post.metadata.title}
             </Link>
             <div className="flex gap-1" key={key}>
               {post?.metadata?.tags?.map((tag: string, key: number) => (

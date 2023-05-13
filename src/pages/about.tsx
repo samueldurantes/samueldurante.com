@@ -6,7 +6,10 @@ import Link from 'next/link';
 import Header from '../components/Header';
 
 const About: NextPage = () => {
-  const age = ~~((Date.now() - +new Date('2004-11-26T00:00:00.000Z')) / (31557600000));
+  const age = ~~(
+    (Date.now() - +new Date('2004-11-26T00:00:00.000Z')) /
+    31557600000
+  );
 
   const links = [
     {
@@ -50,13 +53,12 @@ const About: NextPage = () => {
             {links.map((link, key) => (
               <div key={key} className="flex gap-2">
                 {key > 0 && key < links.length ? <span>/</span> : null}
-                <Link href={link.url}>
-                  <a
-                    className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-                    target="_blank"
-                  >
-                    {link.name}
-                  </a>
+                <Link
+                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                  href={link.url}
+                  target="_blank"
+                >
+                  {link.name}
                 </Link>
               </div>
             ))}

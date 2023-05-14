@@ -80,6 +80,8 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./out
+      env:
+        NEXT_PUBLIC_HOST: https://samueldurantes.github.io/blog/
 
   # Deployment job
   deploy:

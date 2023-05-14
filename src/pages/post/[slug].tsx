@@ -7,21 +7,43 @@ import moment from 'moment';
 
 import Header from '../../components/Header';
 import { getAllPosts, getPostBySlug } from '../../../lib/posts';
+import { config } from '../../config';
 import type { Post as PostType } from '../../../lib/posts';
 
 type Props = {
   post: PostType;
+  og: string;
 };
 
 type QueryParams = {
   slug?: string;
 };
 
-const Post: NextPage<Props> = ({ post }) => {
+const Post: NextPage<Props> = ({ post, og }) => {
   return (
     <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
       <Head>
         <title>{post.metadata.title}</title>
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={config.HOST + og} />
+        <meta property="og:image" content={config.HOST + og} />
+
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:url"
+          content={`${config.HOST}/${post.metadata.slug}`}
+        />
+        <meta property="og:title" content={post.metadata.title} />
+        <meta property="og:description" content={post.metadata.description} />
+        <meta property="og:site_name" content="Samuel Durante" />
+        <meta name="author" content="Samuel Durante" />
+        <meta name="description" content={post.metadata.description} />
+
+        <meta
+          property="article:published_time"
+          content={`${post.metadata.created_at}T00:00:00+00:00`}
+        />
       </Head>
 
       <Header />
@@ -121,9 +143,22 @@ export const getStaticProps: GetStaticProps<Props, QueryParams> = async ({
     );
   }
 
+  const ogImage = async () => {
+    const image = await import(
+      `../../images/posts/og/${post.metadata.slug}.png`
+    );
+
+    if (!image) {
+      return null;
+    }
+
+    return image.default.src;
+  };
+
   return {
     props: {
       post,
+      og: await ogImage(),
     },
   };
 };

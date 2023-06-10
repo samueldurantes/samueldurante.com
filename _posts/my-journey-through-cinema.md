@@ -49,6 +49,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Elis (2016)
 - City of God (2002)
 - The Perfect Man (2005)
+- Spider-Man: Across the Spider-Verse (2023)
 
 ### Past
 
@@ -66,6 +67,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Spider-Man (2002)
 - Spider-Man 2 (2004)
 - Spider-Man 3 (2007)
+- Spider-Man: Into the Spider-Verse (2018)
 - Bohemian Rhapsody (2018)
 - The 40-Year-Old Virgin (2005)
 - John Wick (2014)

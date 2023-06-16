@@ -50,6 +50,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - City of God (2002)
 - The Perfect Man (2005)
 - Spider-Man: Across the Spider-Verse (2023)
+- Interstellar (2014)
+- Legend (2015)
 
 ### Past
 

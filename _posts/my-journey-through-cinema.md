@@ -52,6 +52,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Spider-Man: Across the Spider-Verse (2023)
 - Interstellar (2014)
 - Legend (2015)
+- Dead Poets Society (1989)
+- Back to the Future (1985)
 
 ### Past
 

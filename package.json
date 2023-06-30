@@ -7,12 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write \"src/**/*.{ts,tsx}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "postexport": "next-sitemap"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
     "moment": "^2.29.4",
     "next": "13.4.2",
+    "next-sitemap": "^4.1.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.3",

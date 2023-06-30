@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "postexport": "next-sitemap"
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

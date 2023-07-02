@@ -144,15 +144,15 @@ export const getStaticProps: GetStaticProps<Props, QueryParams> = async ({
   }
 
   const ogImage = async () => {
-    const image = await import(
-      `../../images/posts/og/${post.metadata.slug}.png`
-    );
+    try {
+      const image = await import(
+        `../../images/posts/og/${post.metadata.slug}.png`
+      );
 
-    if (!image) {
+      return image.default.src;
+    } catch (_) {
       return null;
     }
-
-    return image.default.src;
   };
 
   return {

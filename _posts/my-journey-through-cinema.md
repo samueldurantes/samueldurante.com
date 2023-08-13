@@ -55,6 +55,10 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Dead Poets Society (1989)
 - Back to the Future (1985)
 - Back to the Future Part II (1989)
+- Oppenheimer (2023)
+- Batman (2022)
+- Wedding Daze (2006)
+- Pretty Woman (1990)
 
 ### Past
 

@@ -3,6 +3,7 @@ id: 9faa1f405a3247f3939e7092c358f218
 title: Por que os modelos de IA usam GPU em vez de CPU?
 description: AAAAAAAAAAAAAAAAAAAAAAA
 created_at: '2023-07-01'
+updated_at: '2023-08-21'
 tags: [programming, ai, hardware]
 slug: why-ai-models-use-gpu-instead-cpu
 ---
@@ -33,6 +34,6 @@ As estruturas vetoriais são amplamente utilizadas na formalização de algoritm
 
 Considerando que a principal representação de dados para modelos de inteligência artificial são estruturas n-dimensionais, as GPUs se tornaram ferramentas comuns nessa área devido à eficiência na realização de operações nessas estruturas, graças à sua capacidade de paralelização massiva.
 
-## References
+## Referências
 
 - [[Akitando] #142 - Entendendo COMO ChatGPT Funciona - Rodando sua Própria IA](https://www.akitaonrails.com/2023/06/19/akitando-142-entendendo-como-chatgpt-funciona-rodando-sua-propria-ia)

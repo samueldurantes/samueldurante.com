@@ -3,7 +3,7 @@ id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 description: A captivating odyssey that ignites my soul, broadens my horizons, and unveils the limitless possibilities of human creativity
 created_at: '2023-01-14'
-updated_at: '2023-08-13'
+updated_at: '2023-08-26'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---
@@ -17,12 +17,12 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Black Mass (2015)
 - Before Sunrise (1995)
 - Just Like Heaven (2005)
-- Love and Other Drugs (2010)
+- Love and Other Drugs (2010) ★
 - 13 Going on 30 (2004)
-- Scent of a Woman (1992)
+- Scent of a Woman (1992) ★
 - Carandiru (2003)
 - My Best Friend's Wedding (1997)
-- The Great Gatsby (2013)
+- The Great Gatsby (2013) ★
 - Risk Business (1983)
 - Harry Potter and the Philosopher's Stone (2001)
 - Harry Potter and the Chamber of Secrets (2002)
@@ -32,16 +32,16 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Harry Potter and the Half-Blood Prince (2009)
 - Harry Potter and the Deathly Hallows: Part 1 (2010)
 - Harry Potter and the Deathly Hallows: Part 2 (2011)
-- Django Unchained (2012)
+- Django Unchained (2012) ★
 - Pulp Fiction (1994)
 - John Wick: Chapter 4 (2023)
 - Godfellas (1990)
-- The Shawshank Redemption (1994)
+- The Shawshank Redemption (1994) ★
 - A Clockwork Orange (1971)
-- Knocked Up (2007)
+- Knocked Up (2007) ★
 - The Big Short (2015)
 - Two Weeks Notice (2002)
-- Shutter Island (2010)
+- Shutter Island (2010) ★
 - Drive (2011)
 - Licorice Pizza (2021)
 - Bullet Train (2022)
@@ -50,52 +50,53 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - City of God (2002)
 - The Perfect Man (2005)
 - Spider-Man: Across the Spider-Verse (2023)
-- Interstellar (2014)
+- Interstellar (2014) ★
 - Legend (2015)
-- Dead Poets Society (1989)
+- Dead Poets Society (1989) ★
 - Back to the Future (1985)
 - Back to the Future Part II (1989)
-- Oppenheimer (2023)
+- Oppenheimer (2023) ★
 - Batman (2022)
 - Wedding Daze (2006)
 - Pretty Woman (1990)
+- The Devil Wears Prada (2006)
 
 ### Past
 
 - The Godfather (1972)
 - The Godfather: Part II (1974)
-- Eternal Shine of a Spotless Mind (2004)
+- Eternal Shine of a Spotless Mind (2004) ★
 - The Perks of Being a Wallflower (2012)
-- Forrest Gump (1994)
+- Forrest Gump (1994) ★
 - Catch Me If You Can (2002)
-- Taxi Driver (1976)
+- Taxi Driver (1976) ★
 - Irishman (2019)
-- Silver Linings Playbook (2012)
-- Girl, Interrupted (1999)
+- Silver Linings Playbook (2012) ★
+- Girl, Interrupted (1999) ★
 - 8 Mile (2002)
 - Spider-Man (2002)
 - Spider-Man 2 (2004)
 - Spider-Man 3 (2007)
 - Spider-Man: Into the Spider-Verse (2018)
 - Bohemian Rhapsody (2018)
-- The 40-Year-Old Virgin (2005)
+- The 40-Year-Old Virgin (2005) ★
 - John Wick (2014)
 - John Wick: Chapter 2 (2017)
 - John Wick: Chapter 3 - Parabellum (2019)
-- Fight Club (1999)
-- V for Vendetta (2006)
-- Once Upon a Time in Hollywood (2019)
+- Fight Club (1999) ★
+- V for Vendetta (2006) ★
+- Once Upon a Time in Hollywood (2019) ★
 - The Wolf of Wall Street (2013)
 - Joker (2019)
 - Batman Begins (2005)
 - The Dark Knight (2008)
 - The Dark Knight Rises (2012)
-- American Psycho (2000)
+- American Psycho (2000) ★
 - Akira (1988)
 - Your Name (2016)
 - The Intern (2015)
 - Scott Pilgrim vs. the World (2010)
-- Superbad (2007)
+- Superbad (2007) ★
 - Juno (2007)
 - This Is the End (2013)
 - School of Rock (2003)
@@ -115,8 +116,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Murder Mystery (2019)
 - Blended (2014)
 - Just Go with It (2011)
-- The Curious Case of Benjamin Button (2008)
-- Inglourious Basterds (2009)
+- The Curious Case of Benjamin Button (2008) ★
+- Inglourious Basterds (2009) ★
 - The Social Network (2010)
 - Moneyball (2011)
 - BlacKkKlansman (2018)
@@ -124,11 +125,11 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Moonrise Kingdom (2012)
 - Submarine (2010)
 - Lost in Translation (2003)
-- Project X (2012)
+- Project X (2012) ★
 - Accepted (2006)
 - 30 Minutes or Less (2011)
 - The Revised Fundamentals of Caregiving (2016)
-- Clueless (1995)
+- Clueless (1995) ★
 - This Is the End (2013)
 - Mid90s (2018)
 - Little Women (2019)
@@ -139,21 +140,21 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Bruce Almighty (2003)
 - Lemony Snicket's A Series of Unfortunate Events (2004)
 - Going in Style (2017)
-- Se7en (1995)
+- Se7en (1995) ★
 - Trainwreck (2015)
 - It: Chapter 2 (2019)
 - Focus (2015)
-- The Butterfly Effect (2004)
-- Jobs (2013)
+- The Butterfly Effect (2004) ★
+- Jobs (2013) ★
 - Steve Jobs (2015)
 - The Da Vinci Code (2006)
 - Cast Away (2001)
 - The Professional (1994)
-- The Breakfast Club (1985)
+- The Breakfast Club (1985) ★
 - Ferris Bueller’s Day Off (1986)
 - 20th Century Women (2016)
 - All the Bright Places (2020)
 - Oh, Ramona! (2019)
 - Paper Towns (2015)
 - The Fault in Our Stars (2014)
-- Pawn Sacrifice (2014)
+- Pawn Sacrifice (2014) ★

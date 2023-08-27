@@ -112,6 +112,13 @@ const Post: NextPage<Props> = ({ post, og }) => {
               blockquote: ({ children }) => (
                 <blockquote className="border-l-4 pl-4">{children}</blockquote>
               ),
+              img: ({ src, alt }) => {
+                return (
+                  <span className="flex justify-center">
+                    <img src={src as string} alt={alt as string} />
+                  </span>
+                );
+              },
             }}
           >
             {post.content}

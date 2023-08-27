@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://samueldurantes.github.io/blog/</loc><lastmod>2023-07-01T16:47:21.747Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldurantes.github.io/blog/about/</loc><lastmod>2023-07-01T16:47:21.747Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldurantes.github.io/blog/post/a-short-introduction-to-systems-f-and-f-omega/</loc><lastmod>2023-07-01T16:47:21.747Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldurantes.github.io/blog/post/my-journey-through-cinema/</loc><lastmod>2023-07-01T16:47:21.747Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldurantes.github.io/blog/post/switch-case-and-pattern-matching/</loc><lastmod>2023-07-01T16:47:21.747Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldurantes.github.io/blog/post/what-is-shebang-or-hashbang/</loc><lastmod>2023-07-01T16:47:21.747Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/about/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/posts/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/post/a-short-introduction-to-systems-f-and-f-omega/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/post/my-journey-through-cinema/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/post/regra-do-octeto-ligacao-ionica-forca-da-ligacao-ionica-e-energia-de-rede/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/post/switch-case-and-pattern-matching/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/post/what-is-shebang-or-hashbang/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldurantes.github.io/blog/post/why-ai-models-use-gpu-instead-cpu/</loc><lastmod>2023-08-27T20:50:44.254Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

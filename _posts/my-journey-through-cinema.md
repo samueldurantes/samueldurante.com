@@ -60,6 +60,10 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Wedding Daze (2006)
 - Pretty Woman (1990)
 - The Devil Wears Prada (2006)
+- Constantine (2005) ★
+- Titanic (1997)
+- Seven Years in Tibet (1997)
+- Notting Hill (1999)
 
 ### Past
 
@@ -159,3 +163,4 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - The Fault in Our Stars (2014)
 - Pawn Sacrifice (2014) ★
 - Good Will Hunting (1997) ★
+- Sleepers (1996)

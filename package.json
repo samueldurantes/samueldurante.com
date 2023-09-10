@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next-sitemap",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "postbuild": "next-sitemap"
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

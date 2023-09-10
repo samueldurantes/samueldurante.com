@@ -3,7 +3,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Markdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import vs from 'react-syntax-highlighter/dist/cjs/styles/prism/vs';
 import moment from 'moment';
+import remarkGfm from 'remark-gfm';
 
 import Header from '../../components/Header';
 import { getAllPosts, getPostBySlug } from '../../../lib/posts';
@@ -71,6 +73,7 @@ const Post: NextPage<Props> = ({ post, og }) => {
         </div>
         <div className="pt-6">
           <Markdown
+            remarkPlugins={[[remarkGfm, { singleTilde: false }]]}
             components={{
               h1: ({ children }) => (
                 <h1 className="my-4 text-4xl font-bold">{children}</h1>
@@ -102,7 +105,7 @@ const Post: NextPage<Props> = ({ post, og }) => {
                 const language = className?.split('-')[1];
 
                 return language ? (
-                  <SyntaxHighlighter language={language}>
+                  <SyntaxHighlighter language={language} style={vs}>
                     {String(children).replace(/\n$/, '')}
                   </SyntaxHighlighter>
                 ) : (

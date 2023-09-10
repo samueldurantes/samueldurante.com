@@ -9,7 +9,7 @@ slug: my-reading-list
 
 Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/posts/reading_list_august_2023/)'s example, I will list all the things I have read or watched whole my life (from date of publication).
 
-## Sep, 2023
+### Sep, 2023
 
 - A Lock-Free Interaction Combinator Evaluator To Fix League of Legends' Client Perfomance
   [https://github.com/HigherOrderCO/hvm-core/blob/main/paper/draft_lol.pdf](https://github.com/HigherOrderCO/hvm-core/blob/main/paper/draft_lol.pdf)

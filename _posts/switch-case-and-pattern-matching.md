@@ -2,7 +2,8 @@
 id: f1c4cf8d86b65dac53cde0d5a24a07b8
 title: What is the difference between switch-case and pattern matching?
 description: Comparing switch-case and pattern matching, two distinct approaches to make decisions and manipulate data efficiently and precisely
-created_at: "2022-11-20"
+created_at: '2022-11-20'
+updated_at: '2023-09-10'
 tags: [programming]
 slug: switch-case-and-pattern-matching
 ---
@@ -20,10 +21,10 @@ const x = 5;
 
 switch (x) {
   case 5:
-    console.log("x is equal to 5");
+    console.log('x is equal to 5');
     break;
   default:
-    console.log("x is not equal to 5");
+    console.log('x is not equal to 5');
 }
 ```
 
@@ -31,9 +32,9 @@ switch (x) {
 const x = 5;
 
 if (x === 5) {
-  console.log("x is equal to 5");
+  console.log('x is equal to 5');
 } else {
-  console.log("x is not equal to 5");
+  console.log('x is not equal to 5');
 }
 ```
 
@@ -43,7 +44,7 @@ Both examples above only check if the variable `x` is equal to 5. In the case of
 
 While pattern matching offers several other features such as exhaustiveness checking, destructuring and match expressions.
 
-#### Exhaustive check
+### Exhaustive check
 
 An Exhaustiveness checker for pattern matching is used to ensure that all possible cases of structured data have been considered in the pattern matching.
 
@@ -72,7 +73,7 @@ We forgot the `Blue` pattern.
 
 This is important to prevent bugs and ensure that the code is complete and correct.
 
-#### Destructuring
+### Destructuring
 
 Destructuring allows extracting and binding specific parts of a data structure to variables while matching patterns. This is often used to extract specific fields or values from a data structure, making it easier to work with and manipulate the data.
 
@@ -92,3 +93,9 @@ even (S (S (S n))) = even (S n)
 ```
 
 In this example, the even function is using pattern matching to extract the values inside the `S` constructor.
+
+## Conclusion
+
+In summary, both switch-case and pattern matching are flow control mechanisms used to check if a variable matches a specific pattern. However, there are fundamental differences between the two.
+
+The switch-case is typically used for primitive types and simple equality operations. It is more commonly found in procedural languages with simple types. On the other hand, pattern matching offers more advanced features such as exhaustiveness checking, data destructuring, and match expressions. These capabilities are especially prevalent in functional languages with strong typing.

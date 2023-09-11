@@ -9,7 +9,7 @@ slug: regra-do-octeto-ligacao-ionica-forca-da-ligacao-ionica-e-energia-de-rede
 
 ## Regra do octeto
 
-A regra do octeto, fundamentada na chamada teoria do octeto, é uma regra química simples, segundo a qual os átomos tendem a combinar-se de modo a ter, cada um, oito elétrons na sua camada de valência, ficando com a mesma configuração eletrônica de um gás nobre [1].
+A regra do octeto, fundamentada na chamada teoria do octeto, é uma regra química simples, segundo a qual os átomos tendem a combinar-se de modo a ter, cada um, oito elétrons na sua camada de valência, ficando com a mesma configuração eletrônica de um gás nobre.
 
 `O que esse parágrafo quer dizer?`
 
@@ -32,12 +32,30 @@ São reconhecidos como gases nobres todos os elementos presente na última filei
 
 ![periodic-table](https://github.com/samueldurantes/blog/assets/44513615/9c336fa6-a615-4bcb-80bd-125515a8ac86)
 
-
 A principal caraterística desse grupo é sua tendência muito baixa de reação, com execeção do hélio, que tem apenas dois elétrons na camada de valência.
 
 Sabendo disso, podemos afirmar que o primeiro parágrafo desse texto quer dizer que para um átomo adquirir estabilidade, ele precisa de 8 eletróns na sua camada de valência. Dessa forma, também podemos afirmar que a regra do octeto está intrinsecamente ligada com o conceito de ligações químicas, como ligações iônicas e ligações covalentes.
 
-## Ligação iônica
+## ~~Ligação~~ Interação iônica
+
+~~Ligação~~ Interação iônica é um tipo de ~~ligação~~ interação química que involve a atração eletrostática entre íons de carga oposta. Essa é a principal interação que ocorre em compostos iônicos.
+
+Sabendo disso, vamos analisar a distruição eletrônica a seguir:
+
+```hs
+Cl (Z = 17) 1s^2 2s^2 2p^6 3s^2 3p^5
+Na (Z = 11) 1s^2 2s^2 2p^6 3s^1
+```
+
+Podemos notar que o cloro (`Cl`) possui 7 eletróns na camada de valência, enquanto o sódio (`Na`) possui apenas 1 eletrón.
+
+A reação química entre esses dois compostos ocorre mediante da transferência do único eletrón da camada de valência do sódio para a camada de valência do cloro, afim de obter estabilidade conforme a descrição da regra de octeto que vimos anteriormente.
+
+> Nota 1: o termo "ligação" está rasurado por ser falacioso, porque na química quando dizemos que dois elementos estão ligados um ao outro, estamos intrinsecamente afirmamos que o comportamento de um desses elementos interfere diretamente no outro.
+
+> Nota 2: íon é um átomo carregado eletricamente, sendo caracterizado de acordo com tipo da sua carga, se negativo ânion, se positivo cátion.
+
+## Força da ~~ligação~~ interação iônica
 
 ...
 
@@ -47,4 +65,5 @@ Sabendo disso, podemos afirmar que o primeiro parágrafo desse texto quer dizer 
 
 ## Referências
 
-- [1] [Regra do octeto - Wikipedia](https://pt.wikipedia.org/wiki/Regra_do_octeto)
+- Regra do octeto - [https://pt.wikipedia.org/wiki/Regra_do_octeto](https://pt.wikipedia.org/wiki/Regra_do_octeto)
+- Ionic bonding - [https://en.wikipedia.org/wiki/Ionic_bonding](https://en.wikipedia.org/wiki/Ionic_bonding)

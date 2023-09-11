@@ -16,3 +16,6 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - O fim dos Beatles: como caprichos e raiva destruíram a maior banda de todos os tempos
   [https://rollingstone.uol.com.br/noticia/o-fim-dos-beatles-como-caprichos-e-raiva-destruiram-maior-banda-de-todos-os-tempos/](https://rollingstone.uol.com.br/noticia/o-fim-dos-beatles-como-caprichos-e-raiva-destruiram-maior-banda-de-todos-os-tempos/)
+
+- Fighting spam with Haskell
+  [https://engineering.fb.com/2015/06/26/security/fighting-spam-with-haskell/](https://engineering.fb.com/2015/06/26/security/fighting-spam-with-haskell/)

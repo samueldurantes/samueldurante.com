@@ -57,7 +57,15 @@ A reação química entre esses dois compostos ocorre mediante da transferência
 
 ## Força da ~~ligação~~ interação iônica
 
-...
+Novamente vamos pensar na reação entre (`Cl`) e o (`Na`), sabemos que (`Cl`) é um ânion e (`Na`) é um cátion. Logo, podemos afirmar que existe um campo eletromagnético permitindo que essas duas moléculas façam essa interação entre sí.
+
+Sabendo disso, podemos afirmar que a força de interação entre elas é descrita pela seguinte equação de Coulumb:
+
+```hs
+F = K * |Q1 * Q2|
+        ---------
+           d^2
+```
 
 ## Energia de rede
 
@@ -67,3 +75,4 @@ A reação química entre esses dois compostos ocorre mediante da transferência
 
 - Regra do octeto - [https://pt.wikipedia.org/wiki/Regra_do_octeto](https://pt.wikipedia.org/wiki/Regra_do_octeto)
 - Ionic bonding - [https://en.wikipedia.org/wiki/Ionic_bonding](https://en.wikipedia.org/wiki/Ionic_bonding)
+- Coulomb's law - [https://en.wikipedia.org/wiki/Coulomb%27s_law](https://en.wikipedia.org/wiki/Coulomb%27s_law)

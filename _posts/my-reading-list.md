@@ -3,6 +3,7 @@ id: fee5ed8719b999d750b31aac754bc4ba
 title: My reading list
 description: All links of the things I read or watched
 created_at: '2023-09-10'
+updated_at: '2023-09-16'
 tags: [list, links]
 slug: my-reading-list
 ---
@@ -19,3 +20,6 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - Fighting spam with Haskell
   [https://engineering.fb.com/2015/06/26/security/fighting-spam-with-haskell/](https://engineering.fb.com/2015/06/26/security/fighting-spam-with-haskell/)
+
+- Mongoose v3 part 1 :: Versioning
+  [http://aaronheckmann.blogspot.com/2012/06/mongoose-v3-part-1-versioning.html](http://aaronheckmann.blogspot.com/2012/06/mongoose-v3-part-1-versioning.html)

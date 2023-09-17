@@ -61,7 +61,7 @@ A reação química entre esses dois compostos ocorre mediante da transferência
 
 Novamente vamos pensar na reação entre ($\text{Cl}$) e o ($\text{Na}$), sabemos que ($\text{Cl}$) é um ânion e ($\text{Na}$) é um cátion. Logo, podemos afirmar que existe um campo eletromagnético permitindo que essas duas moléculas façam essa interação entre sí.
 
-Sabendo disso, podemos afirmar que a força que mantém elas em interação é uma força eletrostática descrita pela seguinte equação de Coulumb:
+Sabendo disso, podemos afirmar que a força que mantém elas em interação é uma força eletrostática descrita pela seguinte equação de Coulomb:
 
 $
 F = K \times \cfrac{|q_{1}| \times |q_{2}|}{d^2}
@@ -71,7 +71,7 @@ $
 
 A energia de rede é necessária para separar todos os íons de um sólido iônico até o estado gasoso.
 
-Como vimos anteriormente, existe uma força eletrostática que mantém os elementos em interação, descrita pela equação de Coulumb. Analisando novamente a equação de Coulumb, podemos observar que a força ($F$) que mantém os elementos em interação é inversamente proporcional a distância ($d$) dos respectivos.
+Como vimos anteriormente, existe uma força eletrostática que mantém os elementos em interação, descrita pela equação de Coulomb. Analisando novamente a equação de Coulomb, podemos observar que a força ($F$) que mantém os elementos em interação é inversamente proporcional a distância ($d$) dos respectivos.
 
 $
 \uparrow F = K \times \cfrac{|q_{1}| \times |q_{2}|}{d^2 \downarrow}

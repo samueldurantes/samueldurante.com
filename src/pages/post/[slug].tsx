@@ -6,6 +6,10 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import vs from 'react-syntax-highlighter/dist/cjs/styles/prism/vs';
 import moment from 'moment';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
+import 'katex/dist/katex.min.css';
 
 import Header from '../../components/Header';
 import { getAllPosts, getPostBySlug } from '../../../lib/posts';
@@ -73,7 +77,8 @@ const Post: NextPage<Props> = ({ post, og }) => {
         </div>
         <div className="pt-6">
           <Markdown
-            remarkPlugins={[[remarkGfm, { singleTilde: false }]]}
+            remarkPlugins={[[remarkGfm, { singleTilde: false }], remarkMath]}
+            rehypePlugins={[rehypeKatex]}
             components={{
               h1: ({ children }) => (
                 <h1 className="my-4 text-4xl font-bold">{children}</h1>

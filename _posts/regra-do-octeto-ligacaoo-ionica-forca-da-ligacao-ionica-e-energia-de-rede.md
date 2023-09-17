@@ -11,7 +11,7 @@ slug: regra-do-octeto-ligacao-ionica-forca-da-ligacao-ionica-e-energia-de-rede
 
 A regra do octeto, fundamentada na chamada teoria do octeto, é uma regra química simples, segundo a qual os átomos tendem a combinar-se de modo a ter, cada um, oito elétrons na sua camada de valência, ficando com a mesma configuração eletrônica de um gás nobre.
 
-`O que esse parágrafo quer dizer?`
+$\large\text{``O que esse parágrafo quer dizer?"}$
 
 Antes de respondermos a pergunta acima, vamos quebrar o parágrafo, para obter as seguintes _peças_:
 
@@ -42,12 +42,13 @@ Sabendo disso, podemos afirmar que o primeiro parágrafo desse texto quer dizer 
 
 Sabendo disso, vamos analisar a distruição eletrônica a seguir:
 
-```hs
-Cl (Z = 17) 1s^2 2s^2 2p^6 3s^2 3p^5
-Na (Z = 11) 1s^2 2s^2 2p^6 3s^1
-```
+$
+Cl\space(Z = 17)\space1s^2 2s^2 2p^6 3s^2 3p^5
+\\[8pt]
+Na\space(Z = 11)\space1s^2 2s^2 2p^6 3s^1
+$
 
-Podemos notar que o cloro (`Cl`) possui 7 eletróns na camada de valência, enquanto o sódio (`Na`) possui apenas 1 eletrón.
+Podemos notar que o cloro ($Cl$) possui 7 eletróns na camada de valência, enquanto o sódio ($Na$) possui apenas 1 eletrón.
 
 A reação química entre esses dois compostos ocorre mediante da transferência do único eletrón da camada de valência do sódio para a camada de valência do cloro, afim de obter estabilidade conforme a descrição da regra de octeto que vimos anteriormente.
 
@@ -57,19 +58,27 @@ A reação química entre esses dois compostos ocorre mediante da transferência
 
 ## Força da ~~ligação~~ interação iônica
 
-Novamente vamos pensar na reação entre (`Cl`) e o (`Na`), sabemos que (`Cl`) é um ânion e (`Na`) é um cátion. Logo, podemos afirmar que existe um campo eletromagnético permitindo que essas duas moléculas façam essa interação entre sí.
+Novamente vamos pensar na reação entre ($Cl$) e o ($Na$), sabemos que ($Cl$) é um ânion e ($Na$) é um cátion. Logo, podemos afirmar que existe um campo eletromagnético permitindo que essas duas moléculas façam essa interação entre sí.
 
-Sabendo disso, podemos afirmar que a força de interação entre elas é descrita pela seguinte equação de Coulumb:
+Sabendo disso, podemos afirmar que a força que mantém elas em interação é uma força eletrostática descrita pela seguinte equação de Coulumb:
 
-```hs
-F = K * |Q1 * Q2|
-        ---------
-           d^2
-```
+$
+F = K \times \cfrac{|q_{1}| \times |q_{2}|}{d^2}
+$
 
 ## Energia de rede
 
-...
+A energia de rede é necessária para separar todos os íons de um sólido iônico até o estado gasoso.
+
+Como vimos anteriormente, existe uma força eletrostática que mantém os elementos em interação, descrita pela equação de Coulumb. Analisando novamente a equação de Coulumb, podemos observar que a força ($F$) que mantém os elementos em interação é inversamente proporcional a distância ($d$) dos respectivos.
+
+$
+\uparrow F = K \times \cfrac{|q_{1}| \times |q_{2}|}{d^2 \downarrow}
+\\[18pt]
+\downarrow F = K \times \cfrac{|q_{1}| \times |q_{2}|}{d^2 \uparrow}
+$
+
+Nessa acepção, conseguimos afirmar que a energia de rede é a energia necessária para auementar a distância entre os elementos a ponto que eles fiquem tão distantes até antigirem o estado físico gasoso.
 
 ## Referências
 

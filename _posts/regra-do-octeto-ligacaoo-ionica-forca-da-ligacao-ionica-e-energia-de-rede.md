@@ -40,7 +40,7 @@ Sabendo disso, podemos afirmar que o primeiro parágrafo desse texto quer dizer 
 
 ~~Ligação~~ Interação iônica é um tipo de ~~ligação~~ interação química que involve a atração eletrostática entre íons de carga oposta. Essa é a principal interação que ocorre em compostos iônicos.
 
-Sabendo disso, vamos analisar a distruição eletrônica a seguir:
+Sabendo disso, vamos analisar a distribuição eletrônica a seguir:
 
 $
 Cl\space(Z = 17)\space1s^2 2s^2 2p^6 3s^2 3p^5
@@ -48,17 +48,17 @@ Cl\space(Z = 17)\space1s^2 2s^2 2p^6 3s^2 3p^5
 Na\space(Z = 11)\space1s^2 2s^2 2p^6 3s^1
 $
 
-Podemos notar que o cloro ($Cl$) possui 7 eletróns na camada de valência, enquanto o sódio ($Na$) possui apenas 1 eletrón.
+Podemos notar que o cloro ($\text{Cl}$) possui 7 eletróns na camada de valência, enquanto o sódio ($\text{Na}$) possui apenas 1 eletrón.
 
 A reação química entre esses dois compostos ocorre mediante da transferência do único eletrón da camada de valência do sódio para a camada de valência do cloro, afim de obter estabilidade conforme a descrição da regra de octeto que vimos anteriormente.
 
-> Nota 1: o termo "ligação" está rasurado por ser falacioso, porque na química quando dizemos que dois elementos estão ligados um ao outro, estamos intrinsecamente afirmamos que o comportamento de um desses elementos interfere diretamente no outro.
+> Nota 1: o termo "ligação" está rasurado por ser falacioso, porque na química quando dizemos que dois elementos estão ligados um ao outro, estamos intrinsecamente afirmando que o comportamento de um desses elementos interfere diretamente no outro.
 
-> Nota 2: íon é um átomo carregado eletricamente, sendo caracterizado de acordo com tipo da sua carga, se negativo ânion, se positivo cátion.
+> Nota 2: íon é um átomo carregado eletricamente, sendo classificado de acordo com tipo da sua carga, se negativo ânion, se positivo cátion.
 
 ## Força da ~~ligação~~ interação iônica
 
-Novamente vamos pensar na reação entre ($Cl$) e o ($Na$), sabemos que ($Cl$) é um ânion e ($Na$) é um cátion. Logo, podemos afirmar que existe um campo eletromagnético permitindo que essas duas moléculas façam essa interação entre sí.
+Novamente vamos pensar na reação entre ($\text{Cl}$) e o ($\text{Na}$), sabemos que ($\text{Cl}$) é um ânion e ($\text{Na}$) é um cátion. Logo, podemos afirmar que existe um campo eletromagnético permitindo que essas duas moléculas façam essa interação entre sí.
 
 Sabendo disso, podemos afirmar que a força que mantém elas em interação é uma força eletrostática descrita pela seguinte equação de Coulumb:
 

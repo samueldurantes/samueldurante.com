@@ -32,15 +32,15 @@ São reconhecidos como gases nobres todos os elementos presente na última filei
 
 ![periodic-table](https://github.com/samueldurantes/blog/assets/44513615/9c336fa6-a615-4bcb-80bd-125515a8ac86)
 
-A principal caraterística desse grupo é sua tendência muito baixa de reação, com execeção do hélio, que tem apenas dois elétrons na camada de valência.
+A principal característica desse grupo é sua tendência muito baixa de reação, por conta da grande maioria dos elementos dessa família terem 8 eletróns (com execeção do hélio, que tem apenas dois elétrons na camada de valência) na camada de valência.
 
-Sabendo disso, podemos afirmar que o primeiro parágrafo desse texto quer dizer que para um átomo adquirir estabilidade, ele precisa de 8 eletróns na sua camada de valência. Dessa forma, também podemos afirmar que a regra do octeto está intrinsecamente ligada com o conceito de ligações químicas, como ligações iônicas e ligações covalentes.
+Então, podemos afirmar que o primeiro parágrafo desse texto quer dizer que para um átomo adquirir estabilidade, ele precisa de 8 eletróns na sua camada de valência. Dessa forma, também podemos afirmar que a regra do octeto está intrinsecamente ligada com o conceito de ligações químicas, como ligações iônicas e ligações covalentes.
 
 ## ~~Ligação~~ Interação iônica
 
 ~~Ligação~~ Interação iônica é um tipo de ~~ligação~~ interação química que involve a atração eletrostática entre íons de carga oposta. Essa é a principal interação que ocorre em compostos iônicos.
 
-Sabendo disso, vamos analisar a distribuição eletrônica a seguir:
+Com isso em mente, vamos analisar a distribuição eletrônica a seguir:
 
 $
 Cl\space(Z = 17)\space1s^2 2s^2 2p^6 3s^2 3p^5

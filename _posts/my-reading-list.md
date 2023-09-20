@@ -23,3 +23,6 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - Mongoose v3 part 1 :: Versioning
   [http://aaronheckmann.blogspot.com/2012/06/mongoose-v3-part-1-versioning.html](http://aaronheckmann.blogspot.com/2012/06/mongoose-v3-part-1-versioning.html)
+
+- p(doom)
+  [https://geohot.github.io/blog/jekyll/update/2023/08/16/p-doom.html](https://geohot.github.io/blog/jekyll/update/2023/08/16/p-doom.html)

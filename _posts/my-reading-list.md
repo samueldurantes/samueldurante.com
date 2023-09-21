@@ -26,3 +26,6 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - p(doom)
   [https://geohot.github.io/blog/jekyll/update/2023/08/16/p-doom.html](https://geohot.github.io/blog/jekyll/update/2023/08/16/p-doom.html)
+
+- A revolução da Inteligência Artificial, só que não... (Artigo especializado)
+  [https://www.tabnews.com.br/macnator/a-revolucao-da-inteligencia-artificial-so-que-nao-artigo](https://www.tabnews.com.br/macnator/a-revolucao-da-inteligencia-artificial-so-que-nao-artigo)

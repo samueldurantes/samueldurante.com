@@ -3,7 +3,11 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://samueldurantes.github.io/blog
+Host: https://samueldurantes.github.io
+
+# Allow all crawlers
+User-agent: *
+Allow: /
 
 # Sitemaps
-Sitemap: https://samueldurantes.github.io/blog/sitemap.xml
+Sitemap: https://samueldurantes.github.io/sitemap.xml

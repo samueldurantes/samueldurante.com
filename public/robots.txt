@@ -5,9 +5,5 @@ Allow: /
 # Host
 Host: https://samueldurantes.github.io
 
-# Allow all crawlers
-User-agent: *
-Allow: /
-
 # Sitemaps
 Sitemap: https://samueldurantes.github.io/sitemap.xml

@@ -3,7 +3,7 @@ id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 description: A captivating odyssey that ignites my soul, broadens my horizons, and unveils the limitless possibilities of human creativity
 created_at: '2023-01-14'
-updated_at: '2023-08-26'
+updated_at: '2023-10-05'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---
@@ -64,6 +64,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Titanic (1997)
 - Seven Years in Tibet (1997)
 - Notting Hill (1999)
+- Sing Street (2016)
 
 ### Past
 

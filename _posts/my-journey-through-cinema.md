@@ -3,7 +3,7 @@ id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 description: A captivating odyssey that ignites my soul, broadens my horizons, and unveils the limitless possibilities of human creativity
 created_at: '2023-01-14'
-updated_at: '2023-10-05'
+updated_at: '2023-10-13'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---

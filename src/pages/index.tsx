@@ -45,6 +45,8 @@ const Home: NextPage<Props> = ({ posts: _posts }) => {
     <div className="flex flex-col justify-center max-w-3xl mx-auto w-full px-4">
       <Head>
         <title>Samuel Durante Blog</title>
+
+        <meta name="description" content="Blog" />
       </Head>
 
       <Header />

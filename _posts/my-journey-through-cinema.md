@@ -65,6 +65,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Seven Years in Tibet (1997)
 - Notting Hill (1999)
 - Sing Street (2016)
+- (500) Days of Summer (2009)
+- No Hard Feelings (2023)
 
 ### Past
 

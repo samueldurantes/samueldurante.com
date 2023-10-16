@@ -67,6 +67,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Sing Street (2016)
 - (500) Days of Summer (2009)
 - No Hard Feelings (2023)
+- Under the Silver Lake (2018) ★
 
 ### Past
 

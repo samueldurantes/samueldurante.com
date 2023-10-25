@@ -29,3 +29,7 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - A revolução da Inteligência Artificial, só que não... (Artigo especializado)
   [https://www.tabnews.com.br/macnator/a-revolucao-da-inteligencia-artificial-so-que-nao-artigo](https://www.tabnews.com.br/macnator/a-revolucao-da-inteligencia-artificial-so-que-nao-artigo)
+
+- O Paradoxo Python [https://profhelioh.wordpress.com/2014/11/06/o-paradoxo-python/?ref=hackernoon.com](https://profhelioh.wordpress.com/2014/11/06/o-paradoxo-python/?ref=hackernoon.com)
+
+- Mantenha Sua Identidade Pequena [http://adriano.mitre.com.br/identidade.html](http://adriano.mitre.com.br/identidade.html)

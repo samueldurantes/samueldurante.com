@@ -3,7 +3,7 @@ id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 description: A captivating odyssey that ignites my soul, broadens my horizons, and unveils the limitless possibilities of human creativity
 created_at: '2023-01-14'
-updated_at: '2023-10-20'
+updated_at: '2023-11-03'
 tags: [list, cinema, thinking]
 slug: my-journey-through-cinema
 ---
@@ -69,6 +69,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - No Hard Feelings (2023)
 - Under the Silver Lake (2018) ★
 - Inception (2010) ★
+- The Talented Mr. Ripley (1999)
+- It (2017)
 
 ### Past
 

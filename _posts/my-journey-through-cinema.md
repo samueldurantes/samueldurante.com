@@ -72,6 +72,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - The Talented Mr. Ripley (1999)
 - It (2017)
 - What's Eating Gilbert Grape (1993)
+- Napoleon (2023)
+- The Revenant (2015)
 
 ### Past
 

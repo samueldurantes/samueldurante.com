@@ -3,6 +3,10 @@ import Link from 'next/link';
 const Header = () => {
   const items = [
     {
+      name: 'Posts',
+      url: '/posts',
+    },
+    {
       name: 'About',
       url: '/about',
     },
@@ -15,7 +19,7 @@ const Header = () => {
       </Link>
       <div className="flex gap-2">
         {items.map((item, key) => (
-          <div key={key}>
+          <div key={key} className="flex gap-2">
             {key > 0 && key < items.length ? <span>/</span> : null}
             <Link className="text-base hover:underline" href={item.url}>
               {item.name}

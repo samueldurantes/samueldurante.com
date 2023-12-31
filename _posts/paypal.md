@@ -3,7 +3,7 @@ id: 9a8a59838a60ee4f342d42db875f4f52
 title: Vincent Chan - Por dentro do PayPal
 description: Tradução para o português do Brasil para o ensaio Vincent Chan - Inside PayPal de Paul Graham.
 created_at: '2023-10-25'
-tags: [thinking]
+tags: [thinking, portuguese]
 slug: paypal
 ---
 

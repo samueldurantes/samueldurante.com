@@ -1,10 +1,10 @@
 ---
 id: 9faa1f405a3247f3939e7092c358f218
 title: Por que os modelos de IA usam GPU em vez de CPU?
-description: AAAAAAAAAAAAAAAAAAAAAAA
+description: Uma breve explicação sobre a diferença entre CPU e GPU e porquê os modelos de IA usam GPU em vez de CPU.
 created_at: '2023-07-01'
 updated_at: '2023-08-21'
-tags: [programming, ai, hardware]
+tags: [programming, ai, hardware, portuguese]
 slug: why-ai-models-use-gpu-instead-cpu
 ---
 

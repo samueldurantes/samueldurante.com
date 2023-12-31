@@ -4,7 +4,7 @@ title: My reading list
 description: All links of the things I read or watched
 created_at: '2023-09-10'
 updated_at: '2023-09-16'
-tags: [list, links]
+tags: [list, links, english]
 slug: my-reading-list
 ---
 

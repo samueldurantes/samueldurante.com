@@ -3,7 +3,7 @@ id: e4d909c290d0fb1ca068ffaddf22cbd0
 title: What is shebang / hashbag?
 description: A short explanation about shebang / hashbag
 created_at: '2023-06-04'
-tags: [programming]
+tags: [programming, english]
 slug: what-is-shebang-or-hashbang
 ---
 

@@ -3,7 +3,7 @@ id: ae1631080053148e353fabf7053dbcc7
 title: Uma Breve Introdução aos Sistemas F e Fω
 description: Uma tradução incompleta
 created_at: '2023-04-08'
-tags: [programming, type-theory]
+tags: [programming, type-theory, portuguese]
 slug: a-short-introduction-to-systems-f-and-f-omega
 ---
 

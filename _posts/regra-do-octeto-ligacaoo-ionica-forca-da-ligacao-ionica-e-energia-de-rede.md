@@ -4,7 +4,7 @@ title: Regra do octeto. Ligação iônica. Força da ligação iônica e energia
 description: Resumo sobre Regra do octeto, ligação iônica e energia de rede
 created_at: '2023-08-27'
 updated_at: '2023-09-17'
-tags: ['chemistry', 'university']
+tags: [chemistry, university, portuguese]
 slug: regra-do-octeto-ligacao-ionica-forca-da-ligacao-ionica-e-energia-de-rede
 ---
 

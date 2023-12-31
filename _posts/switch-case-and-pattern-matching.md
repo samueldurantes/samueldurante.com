@@ -4,7 +4,7 @@ title: What is the difference between switch-case and pattern matching?
 description: Comparing switch-case and pattern matching, two distinct approaches to make decisions and manipulate data efficiently and precisely
 created_at: '2022-11-20'
 updated_at: '2023-09-10'
-tags: [programming]
+tags: [programming, english]
 slug: switch-case-and-pattern-matching
 ---
 

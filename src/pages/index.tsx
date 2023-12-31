@@ -66,10 +66,13 @@ const Home: NextPage<Props> = ({ posts: _posts }) => {
             </Link>
             <div className="flex gap-1" key={key}>
               {post?.metadata?.tags?.map((tag: string, key: number) => (
-                <p
-                  className="italic text-sm font-serif"
+                <Link
                   key={key}
-                >{`#${tag}`}</p>
+                  href={`/posts/tagged/${tag}`}
+                  className="italic text-sm font-serif transition duration-300 hover:text-blue-500"
+                >
+                  {`#${tag}`}
+                </Link>
               ))}
             </div>
           </div>

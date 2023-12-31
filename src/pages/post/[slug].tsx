@@ -72,7 +72,13 @@ const Post: NextPage<Props> = ({ post, og }) => {
         <div className="flex gap-1 pt-2">
           <p className="italic text-sm font-serif">Tags:</p>
           {post.metadata.tags.map((tag: any, key: any) => (
-            <p className="italic text-sm font-serif" key={key}>{`#${tag}`}</p>
+            <Link
+              key={key}
+              href={`/posts/tagged/${tag}`}
+              className="italic text-sm font-serif transition duration-300 hover:text-blue-500"
+            >
+              {`#${tag}`}
+            </Link>
           ))}
         </div>
         <div className="pt-6">

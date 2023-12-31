@@ -3,9 +3,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import moment from 'moment';
 
-import Header from '../components/Header';
-import { getAllPosts } from '../../lib/posts';
-import type { Posts, Post } from '../../lib/posts';
+import Header from '../../components/Header';
+import { getAllPosts } from '../../../lib/posts';
+import type { Posts, Post } from '../../../lib/posts';
 
 type Props = {
   posts: Posts;

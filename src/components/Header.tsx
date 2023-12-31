@@ -7,6 +7,10 @@ const Header = () => {
       url: '/posts',
     },
     {
+      name: 'Tags',
+      url: '/tags',
+    },
+    {
       name: 'About',
       url: '/about',
     },

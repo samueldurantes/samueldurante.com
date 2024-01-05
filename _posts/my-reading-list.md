@@ -3,12 +3,24 @@ id: fee5ed8719b999d750b31aac754bc4ba
 title: My reading list
 description: All links of the things I read or watched
 created_at: '2023-09-10'
-updated_at: '2023-09-16'
+updated_at: '2024-01-05'
 tags: [list, links, english]
 slug: my-reading-list
 ---
 
 Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/posts/reading_list_august_2023/)'s example, I will list all the things I have read or watched whole my life (from date of publication).
+
+### Jan, 2024
+
+- Why should you prefer text/image over video/audio for learning? [https://sibelius.substack.com/p/why-should-you-prefer-textimage-over](https://sibelius.substack.com/p/why-should-you-prefer-textimage-over)
+
+- Deus me Livre de um Dev [https://dataleak.com.br/deus-me-livre-de-um-dev](https://dataleak.com.br/deus-me-livre-de-um-dev)
+
+- A Anatomia de um Ataque Direcionado [https://dataleak.com.br/a-anatomia-de-um-ataque-direcionado](https://dataleak.com.br/a-anatomia-de-um-ataque-direcionado)
+
+- Lenses [https://www.fpcomplete.com/haskell/tutorial/lens/](https://www.fpcomplete.com/haskell/tutorial/lens/)
+
+- Como receber salário do exterior sendo Desenvolvedor de Software [https://joaopedro.dev/como-receber-salario-do-exterior/](https://joaopedro.dev/como-receber-salario-do-exterior/)
 
 ### Sep, 2023
 

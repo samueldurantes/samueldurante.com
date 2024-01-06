@@ -22,6 +22,8 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - Como receber salário do exterior sendo Desenvolvedor de Software [https://joaopedro.dev/como-receber-salario-do-exterior/](https://joaopedro.dev/como-receber-salario-do-exterior/)
 
+- How to become a Senior engineer faster? [https://sibelius.substack.com/p/how-to-become-a-senior-engineer-faster)(https://sibelius.substack.com/p/how-to-become-a-senior-engineer-faster)
+
 ### Sep, 2023
 
 - A Lock-Free Interaction Combinator Evaluator To Fix League of Legends' Client Perfomance

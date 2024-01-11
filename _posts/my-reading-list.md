@@ -22,7 +22,9 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - Como receber salário do exterior sendo Desenvolvedor de Software [https://joaopedro.dev/como-receber-salario-do-exterior/](https://joaopedro.dev/como-receber-salario-do-exterior/)
 
-- How to become a Senior engineer faster? [https://sibelius.substack.com/p/how-to-become-a-senior-engineer-faster)(https://sibelius.substack.com/p/how-to-become-a-senior-engineer-faster)
+- How to become a Senior engineer faster? [https://sibelius.substack.com/p/how-to-become-a-senior-engineer-faster](https://sibelius.substack.com/p/how-to-become-a-senior-engineer-faster)
+
+- Why Discord is switching from Go to Rust [https://discord.com/blog/why-discord-is-switching-from-go-to-rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
 
 ### Sep, 2023
 

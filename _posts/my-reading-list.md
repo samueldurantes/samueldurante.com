@@ -3,12 +3,12 @@ id: fee5ed8719b999d750b31aac754bc4ba
 title: My reading list
 description: All links of the things I read or watched
 created_at: '2023-09-10'
-updated_at: '2024-01-05'
+updated_at: '2024-01-11'
 tags: [list, links, english]
 slug: my-reading-list
 ---
 
-Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/posts/reading_list_august_2023/)'s example, I will list all the things I have read or watched whole my life (from date of publication).
+Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/posts/reading_list_august_2023/)'s example, I will list all the things I have read or watched my whole life (from date of publication).
 
 ### Jan, 2024
 
@@ -25,6 +25,8 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 - How to become a Senior engineer faster? [https://sibelius.substack.com/p/how-to-become-a-senior-engineer-faster](https://sibelius.substack.com/p/how-to-become-a-senior-engineer-faster)
 
 - Why Discord is switching from Go to Rust [https://discord.com/blog/why-discord-is-switching-from-go-to-rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
+
+- Announcing Snowflake [https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 
 ### Sep, 2023
 

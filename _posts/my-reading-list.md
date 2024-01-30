@@ -28,6 +28,10 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - Announcing Snowflake [https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 
+- Como conseguir um PhD no exterior [https://pedroabreu0.github.io/blog/2018/04/07/Como-conseguir-um-phd-no-exterior](https://pedroabreu0.github.io/blog/2018/04/07/Como-conseguir-um-phd-no-exterior)
+
+- Porque eu troquei o TextMate/Emacs pelo Vim [https://blog.pedrofranceschi.com/post/46385514365/porque-eu-troquei-o-textmateemacs-pelo-vim](https://blog.pedrofranceschi.com/post/46385514365/porque-eu-troquei-o-textmateemacs-pelo-vim)
+
 ### Sep, 2023
 
 - A Lock-Free Interaction Combinator Evaluator To Fix League of Legends' Client Perfomance

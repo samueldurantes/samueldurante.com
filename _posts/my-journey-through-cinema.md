@@ -10,6 +10,13 @@ slug: my-journey-through-cinema
 
 This post is inspired by a [collection](https://laramendon.ca/collections/cinema). I will periodically update this post with new movies that I watch.
 
+### 2024
+
+- The Matrix (1999)
+- Parasite (2019)
+- The Judge (2014)
+- Bingo: The King of the Mornings (2017)
+
 ### 2023
 
 - Starter for 10 (2006)

@@ -32,6 +32,8 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 
 - Porque eu troquei o TextMate/Emacs pelo Vim [https://blog.pedrofranceschi.com/post/46385514365/porque-eu-troquei-o-textmateemacs-pelo-vim](https://blog.pedrofranceschi.com/post/46385514365/porque-eu-troquei-o-textmateemacs-pelo-vim)
 
+- The writing class I’d like to teach [https://medium.com/signal-v-noise/the-writing-class-id-like-to-teach-11b259f44a5d](https://medium.com/signal-v-noise/the-writing-class-id-like-to-teach-11b259f44a5d)
+
 ### Sep, 2023
 
 - A Lock-Free Interaction Combinator Evaluator To Fix League of Legends' Client Perfomance

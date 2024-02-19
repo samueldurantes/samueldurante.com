@@ -45,12 +45,20 @@ const parseWithMatter = (rawString: string[]): Posts =>
     .filter((post) => !post.data.draft)
     .map(({ content, data }) => ({ content, metadata: data })) as Posts;
 
-export const getAllPosts = async (): Promise<Posts> => {
+export const getAllPosts = async () => {
   const rawPosts = await listPostsOnFolder();
 
   const matteredPosts = parseWithMatter(rawPosts);
 
   return matteredPosts;
+};
+
+export const getAllPostsOnlyMetadata = async () => {
+  const rawPosts = await listPostsOnFolder();
+
+  const matteredPosts = parseWithMatter(rawPosts);
+
+  return matteredPosts.map((post) => ({ metadata: post.metadata }));
 };
 
 export const getPostBySlug = async (slug?: string) => {

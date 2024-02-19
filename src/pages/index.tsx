@@ -4,11 +4,13 @@ import Link from 'next/link';
 import moment from 'moment';
 
 import Header from '../components/Header';
-import { getAllPosts } from '../../lib/posts';
-import type { Posts, Post } from '../../lib/posts';
+import { getAllPostsOnlyMetadata } from '../../lib/posts';
+import type { PostMetadata } from '../../lib/posts';
 
 type Props = {
-  posts: Posts;
+  posts: {
+    metadata: PostMetadata;
+  }[];
 };
 
 const Home: NextPage<Props> = ({ posts: _posts }) => {
@@ -53,7 +55,7 @@ const Home: NextPage<Props> = ({ posts: _posts }) => {
 
       <div className="divide-y">
         <h1 className="pt-10 pb-5 text-2xl">Posts:</h1>
-        {posts.slice(0, 4).map((post: Post, key: number) => (
+        {posts.slice(0, 4).map((post, key: number) => (
           <div className="flex flex-col gap-1 py-10" key={key}>
             <p className="text-sm" key={key}>
               {moment(post.metadata.created_at).format('ll')}
@@ -93,7 +95,7 @@ const Home: NextPage<Props> = ({ posts: _posts }) => {
 export default Home;
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const posts = await getAllPosts();
+  const posts = await getAllPostsOnlyMetadata();
 
   return {
     props: {

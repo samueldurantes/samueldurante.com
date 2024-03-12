@@ -16,6 +16,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Parasite (2019)
 - The Judge (2014)
 - Bingo: The King of the Mornings (2017)
+- Horrible Bosses (2011)
+- Horrible Bosses 2 (2014)
 
 ### 2023
 

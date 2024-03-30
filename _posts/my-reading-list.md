@@ -3,7 +3,7 @@ id: fee5ed8719b999d750b31aac754bc4ba
 title: My reading list
 description: All links of the things I read or watched
 created_at: '2023-09-10'
-updated_at: '2024-01-11'
+updated_at: '2024-04-30'
 tags: [list, links, english]
 slug: my-reading-list
 ---
@@ -33,6 +33,8 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 - Porque eu troquei o TextMate/Emacs pelo Vim [https://blog.pedrofranceschi.com/post/46385514365/porque-eu-troquei-o-textmateemacs-pelo-vim](https://blog.pedrofranceschi.com/post/46385514365/porque-eu-troquei-o-textmateemacs-pelo-vim)
 
 - The writing class I’d like to teach [https://medium.com/signal-v-noise/the-writing-class-id-like-to-teach-11b259f44a5d](https://medium.com/signal-v-noise/the-writing-class-id-like-to-teach-11b259f44a5d)
+
+- Stop using JWT for sessions [http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/)
 
 ### Sep, 2023
 

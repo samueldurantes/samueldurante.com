@@ -37,5 +37,5 @@
     "react-dom": "18.2.0",
     "tsx": "^3.12.10"
   },
-  "packageManager": "^pnpm@8.15.4"
+  "packageManager": "^pnpm@8.6.1"
 }

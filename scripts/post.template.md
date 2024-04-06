@@ -1,0 +1,4 @@
+---
+title: { { title } }
+createdAt: { { createdAt } }
+---

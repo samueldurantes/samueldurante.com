@@ -1,0 +1,144 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+import Link from '../../components/Link.astro';
+import Layout from '../../layout/Layout.astro';
+import { SITE } from '../../config';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+
+  return posts.map((post) => ({
+    params: {
+      slug: post.slug,
+    },
+    props: {
+      post,
+    },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+
+<Layout
+  ogImage={`/${post.slug}.png`}
+  head={{ title: `${post.data.title} | ${SITE.title}` }}
+>
+  <section class="header">
+    <h1>
+      {post.data.title}
+    </h1>
+    <section class="dates">
+      <p>Created At: {post.data.createdAt}</p>
+      {
+        post.data.updatedAt && (
+          <>
+            <span>/</span>
+            <p>Updated At: {post.data.updatedAt}</p>
+          </>
+        )
+      }
+    </section>
+    <section class="tags">
+      <p>Tags:</p>
+      {
+        post.data.tags.map((tag: string) => (
+          <Link href={`/tag/${tag}`}>
+            <p>#{tag}</p>
+          </Link>
+        ))
+      }
+    </section>
+  </section>
+  <article>
+    <Content />
+  </article>
+</Layout>
+
+<style is:global>
+  article {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-2x);
+  }
+
+  article ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    padding-right: var(--spacing-2x);
+  }
+
+  article li {
+    margin-left: var(--spacing-2x);
+  }
+
+  article ol li {
+    list-style-type: decimal;
+    margin-left: var(--spacing-4x);
+  }
+
+  article ul li {
+    list-style-type: disc;
+  }
+
+  article code {
+    background-color: rgb(243 244 246);
+    padding: 0.15rem;
+    border-radius: 0.15rem;
+  }
+
+  article img {
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing);
+  }
+
+  .dates {
+    display: flex;
+    align-items: center;
+    column-gap: var(--spacing);
+
+    font-style: italic;
+  }
+
+  .tags {
+    display: flex;
+    column-gap: var(--spacing);
+
+    font-style: italic;
+  }
+
+  [data-rehype-pretty-code-title] {
+    background-color: rgb(243 244 246);
+    color: var(--color-white);
+    padding: var(--spacing);
+  }
+
+  [data-rehype-pretty-code-figure] code {
+    background-color: transparent;
+    border: 1px solid #24292e;
+    color: var(--color-white);
+    padding: var(--spacing);
+    font-size: var(--font-size-md);
+    /* overflow-x: scroll; */
+  }
+
+  /* TODO: Why KaTeX are duplicating the code. */
+  .katex-html {
+    display: none;
+  }
+</style>

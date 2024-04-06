@@ -1,0 +1,65 @@
+---
+import Link from './Link.astro';
+
+const links = [
+  {
+    name: 'Tags',
+    url: '/tags',
+    isExternal: false,
+  },
+  {
+    name: 'RSS',
+    url: '/rss.xml',
+    isExternal: true,
+  },
+];
+---
+
+<header>
+  <Link href="/">
+    <h1>Samuel Durante's Blog</h1>
+  </Link>
+  <div class="header__links">
+    {
+      links.map((link, key) => (
+        <div class="header__links">
+          {key > 0 && key < links.length ? <span>/</span> : null}
+          <Link href={link.url} isExternal={link.isExternal}>
+            {link.name}
+          </Link>
+        </div>
+      ))
+    }
+  </div>
+</header>
+
+<style>
+  a {
+    color: rgb(30 64 175);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: var(--spacing-4x);
+    padding-bottom: var(--spacing-4x);
+  }
+
+  header h1 {
+    font-size: var(--font-size-md);
+    font-weight: 700;
+  }
+
+  .header__links {
+    display: flex;
+    gap: var(--spacing);
+  }
+
+  a:hover {
+    text-decoration: underline solid;
+  }
+</style>

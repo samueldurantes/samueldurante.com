@@ -1,0 +1,130 @@
+---
+import '../styles/global.css';
+import { SITE } from '../config';
+import Header from '../components/Header.astro';
+
+export interface Props {
+  ogImage?: string;
+  head?: {
+    title?: string;
+    description?: string;
+  };
+}
+
+const {
+  ogImage = 'og.png',
+  head = {
+    title: SITE.title,
+    description: SITE.description,
+  },
+} = Astro.props;
+
+const ogURL = new URL(ogImage, Astro.url.origin).href;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+const rssFeedURL = new URL('rss.xml', Astro.site).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/RobotoMono-Light.ttf"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/RobotoMono-Regular.ttf"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/Merriweather/Merriweather-Regular.ttf"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/Merriweather/Merriweather-Bold.ttf"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/Merriweather/Merriweather-Black.ttf"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{head.title}</title>
+    <meta name="description" content={head.description} />
+    <meta name="author" content={SITE.author} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={SITE.title}
+      href={rssFeedURL}
+    />
+
+    <meta property="og:title" content={head.title} />
+    <meta property="og:description" content={head.description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogURL} />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={head.title} />
+    <meta property="twitter:description" content={head.description} />
+    <meta property="twitter:image" content={ogURL} />
+
+    <!-- TODO: Turn KaTeX loading lazyness -->
+    <!-- Setup KaTeX -->
+    <!-- See more here: https://katex.org/docs/browser.html -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80vw;
+    padding-top: var(--spacing-2x);
+    padding-bottom: var(--spacing-2x);
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4x);
+  }
+
+  @media screen and (min-width: 769px) {
+    body {
+      width: 40vw;
+    }
+  }
+</style>

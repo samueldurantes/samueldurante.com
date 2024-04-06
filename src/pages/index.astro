@@ -1,0 +1,132 @@
+---
+import { getCollection } from 'astro:content';
+
+import Layout from '../layout/Layout.astro';
+import Link from '../components/Link.astro';
+import { GITHUB_REPO_URL, TWITTER_URL } from '../config';
+
+const [posts] = await Promise.all([
+  getCollection('blog', ({ data }) => !data.draft),
+]);
+
+const age = ~~(
+  (Date.now() - +new Date('2004-11-26T00:00:00.000Z')) /
+  31557600000
+);
+
+const postsSorted = posts.sort(
+  (a, b) =>
+    new Date(b.data.createdAt).getTime() - new Date(a.data.createdAt).getTime(),
+);
+
+const links = [
+  { name: 'GitHub', url: GITHUB_REPO_URL },
+  { name: 'Twitter', url: TWITTER_URL },
+];
+---
+
+<Layout>
+  <section class="description">
+    <img class="img" src="/public/assets/main.png" alt="img" />
+    <div class="container">
+      <p>
+        {
+          `My name is Samuel, I am ${age} years old and currently marjoring Electrical Engineering. My interests include math, programming language theory, functional programming, and computer science in the general. I am currently working in web development. In my free time, I enjoy learning more about programming and working on personal projects related to my interests.`
+        }
+      </p>
+      <div class="wrapper">
+        <p>Reach me on:</p>
+        <div class="social">
+          {
+            links.map((link, key) => (
+              <div class="social">
+                {key > 0 && key < links.length ? <span>/</span> : null}
+                <Link href={link.url} isExternal>
+                  {link.name}
+                </Link>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="posts">
+    <h2>Posts:</h2>
+    <ul>
+      {
+        postsSorted.map((post) => (
+          <li>
+            <p>{post.data.createdAt}</p>
+            <Link href={post.slug}>
+              <p class="post-title">{post.data.title}</p>
+            </Link>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  .img {
+    height: 200px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2x);
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2x);
+    row-gap: var(--spacing-2x);
+  }
+
+  .social {
+    display: flex;
+    gap: var(--spacing);
+  }
+
+  .posts ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
+  .posts ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: var(--spacing-2x);
+  }
+
+  .posts {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2x);
+  }
+
+  .posts :global(a) {
+    flex: 1;
+  }
+
+  @media screen and (max-width: 425px) {
+    .posts ul {
+      gap: var(--spacing-2x);
+    }
+
+    .posts ul li {
+      flex-direction: column;
+    }
+  }
+</style>

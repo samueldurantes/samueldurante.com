@@ -2,9 +2,9 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
-import Link from '../../components/Link.astro';
-import Layout from '../../layout/Layout.astro';
-import { SITE } from '../../config';
+import Link from '../../../components/Link.astro';
+import Layout from '../../../layout/Layout.astro';
+import { SITE } from '../../../config';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -39,14 +39,14 @@ const { Content } = await post.render();
     </h1>
     <section class="dates">
       <p>Created At: {post.data.createdAt}</p>
-      {
+      <!-- {
         post.data.updatedAt && (
           <>
             <span>/</span>
             <p>Updated At: {post.data.updatedAt}</p>
           </>
         )
-      }
+      } -->
     </section>
     <section class="tags">
       <p>Tags:</p>
@@ -110,7 +110,7 @@ const { Content } = await post.render();
   .dates {
     display: flex;
     align-items: center;
-    column-gap: var(--spacing);
+    gap: var(--spacing);
 
     font-style: italic;
   }

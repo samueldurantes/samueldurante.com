@@ -58,7 +58,7 @@ const links = [
         postsSorted.map((post) => (
           <li>
             <p>{post.data.createdAt}</p>
-            <Link href={post.slug}>
+            <Link href={`/post/${post.slug}`}>
               <p class="post-title">{post.data.title}</p>
             </Link>
           </li>

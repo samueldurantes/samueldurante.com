@@ -23,7 +23,7 @@ Antes de respondermos a pergunta acima, vamos quebrar o parágrafo, para obter a
 
 Vamos pensar no átomo de cobre, na qual apresenta 29 eletrons, 29 protons e 34 neutrons.
 
-![cu](/public/assets/regra-do-octeto-ligacaoo-ionica-forca-da-ligacao-ionica-e-energia-de-rede/1.png)
+![cu](/assets/regra-do-octeto-ligacaoo-ionica-forca-da-ligacao-ionica-e-energia-de-rede/1.png)
 
 Observe a camada que apresenta apenas 1 eletrón, a camada mais externa ao núcleo, essa camada chamamos de **camada de valência**.
 
@@ -31,7 +31,7 @@ Observe a camada que apresenta apenas 1 eletrón, a camada mais externa ao núcl
 
 São reconhecidos como gases nobres todos os elementos presente na última fileira (esquerda-para-direita) da tabela periódica.
 
-![periodic-table](/public/assets/regra-do-octeto-ligacaoo-ionica-forca-da-ligacao-ionica-e-energia-de-rede/2.gif)
+![periodic-table](/assets/regra-do-octeto-ligacaoo-ionica-forca-da-ligacao-ionica-e-energia-de-rede/2.gif)
 
 A principal característica desse grupo é sua tendência muito baixa de reação, por conta da grande maioria dos elementos dessa família terem 8 eletróns (com execeção do hélio, que tem apenas dois elétrons na camada de valência) na camada de valência.
 

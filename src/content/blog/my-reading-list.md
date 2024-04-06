@@ -6,6 +6,7 @@ createdAt: '2023-09-10'
 updatedAt: '2024-04-30'
 tags: [list, links, english]
 slug: my-reading-list
+draft: true
 ---
 
 Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/posts/reading_list_august_2023/)'s example, I will list all the things I have read or watched my whole life (from date of publication).

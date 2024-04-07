@@ -3,7 +3,7 @@ id: 49e6d6ed256852a12b571b958642f2ab
 title: My journey through cinema
 description: A captivating odyssey that ignites my soul, broadens my horizons, and unveils the limitless possibilities of human creativity
 createdAt: '2023-01-14'
-updatedAt: '2024-01-30'
+updatedAt: '2024-04-07'
 tags: [list, cinema, thinking, english]
 slug: my-journey-through-cinema
 ---
@@ -18,6 +18,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Bingo: The King of the Mornings (2017)
 - Horrible Bosses (2011)
 - Horrible Bosses 2 (2014)
+- Anyone But You (2023)
 
 ### 2023
 

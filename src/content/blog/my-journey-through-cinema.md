@@ -20,6 +20,9 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Horrible Bosses 2 (2014)
 - Anyone But You (2023)
 - Einstein and the Bomb (2024)
+- Partiu América (2024)
+- The Clovehitch Killer (2018)
+- Gone Girl (2014)
 
 ### 2023
 

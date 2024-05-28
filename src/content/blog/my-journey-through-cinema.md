@@ -23,6 +23,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Partiu América (2024)
 - The Clovehitch Killer (2018)
 - Gone Girl (2014)
+- The Aviator (2004)
+- Disturbia (2007)
 
 ### 2023
 

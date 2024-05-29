@@ -11,6 +11,10 @@ draft: true
 
 Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/posts/reading_list_august_2023/)'s example, I will list all the things I have read or watched my whole life (from date of publication).
 
+### May, 2024
+
+- Incentivos antes de qualquer coisa [https://blog.lucis.dev/blog/pense-nos-incentivos-antes-de-qualquer-coisa](https://blog.lucis.dev/blog/pense-nos-incentivos-antes-de-qualquer-coisa)
+
 ### Jan, 2024
 
 - Why should you prefer text/image over video/audio for learning? [https://sibelius.substack.com/p/why-should-you-prefer-textimage-over](https://sibelius.substack.com/p/why-should-you-prefer-textimage-over)

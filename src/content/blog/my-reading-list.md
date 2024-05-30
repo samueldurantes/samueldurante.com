@@ -14,6 +14,8 @@ Following [@poorlydefinedbehaviour](https://poorlydefinedbehaviour.github.io/pos
 ### May, 2024
 
 - Incentivos antes de qualquer coisa [https://blog.lucis.dev/blog/pense-nos-incentivos-antes-de-qualquer-coisa](https://blog.lucis.dev/blog/pense-nos-incentivos-antes-de-qualquer-coisa)
+- O Lobo de Wall Street: o pior filme da carreira de Scorsese [https://revistamovinup.com/pop-2/cinema/2014/o-lobo-de-wall-street-o-pior-filme-da-carreira-de-scorsese](https://revistamovinup.com/pop-2/cinema/2014/o-lobo-de-wall-street-o-pior-filme-da-carreira-de-scorsese)
+- Sobre o mercado de tech, carreira de dev e outras coisas [https://www.reddit.com/r/brdev/comments/1bhpd0b/sobre_o_mercado_de_tech_carreira_de_dev_e_outras/](https://www.reddit.com/r/brdev/comments/1bhpd0b/sobre_o_mercado_de_tech_carreira_de_dev_e_outras/)
 
 ### Jan, 2024
 

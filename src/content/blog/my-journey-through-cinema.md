@@ -25,6 +25,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Gone Girl (2014)
 - The Aviator (2004)
 - Disturbia (2007)
+- Mean Girls (2004)
 
 ### 2023
 

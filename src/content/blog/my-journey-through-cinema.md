@@ -26,6 +26,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - The Aviator (2004)
 - Disturbia (2007)
 - Mean Girls (2004)
+- Neighbors (2014)
+- Neighbors 2 (2016)
 
 ### 2023
 

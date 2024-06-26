@@ -5,6 +5,7 @@ description: A short explanation about shebang / hashbag
 createdAt: '2023-06-04'
 tags: [programming, english]
 slug: what-is-shebang-or-hashbang
+draft: true
 ---
 
 A common question that people have when they start reading and writing their own scripts is:

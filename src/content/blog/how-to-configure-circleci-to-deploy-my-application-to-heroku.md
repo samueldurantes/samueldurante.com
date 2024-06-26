@@ -14,9 +14,9 @@ age the delivery of your platform to provider to generate a new deploy for every
 
 > This part requires that you already have an account on CircleCI, a Docker image that builds your application and an account on Heroku with configured application.
 
-To configure CircleCI, you need to create a `.circleci/config.yml` file in the root of your project. This file will contain the configuration for deploy your application to Heroku.
-
 Before all, you need generate `$HEROKU_API_KEY`, you can do it by following the Heroku [documentation](https://help.heroku.com/PBGP6IDE/how-should-i-generate-an-api-key-that-allows-me-to-use-the-heroku-platform-api/). To a best practice to store these credentials is creating a [context](https://circleci.com/docs/contexts/) for them.
+
+To configure CircleCI, you need to create a `.circleci/config.yml` file in the root of your project. This file will contain the configuration for deploy your application to Heroku.
 
 After that, you need define Heroku Orb in your `config.yml` file, you can do it by adding the following line:
 

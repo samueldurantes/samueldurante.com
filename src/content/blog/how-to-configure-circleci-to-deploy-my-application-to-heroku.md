@@ -7,7 +7,7 @@ tags: [english, programming, devops]
 slug: how-to-configure-circleci-to-deploy-an-application-to-heroku-using-docker
 ---
 
-CircleCI is a continuos integration and continuos delivery platform, and Heroku is a clould platform as a service. Knowing this, you can use CircleCI to man
+[CircleCI](https://circleci.com/) is a continuos integration and continuos delivery platform, and [Heroku](https://www.heroku.com/) is a clould platform as a service. Knowing this, you can use CircleCI to man
 age the delivery of your platform to provider to generate a new deploy for every [git](https://git-scm.com/) push or release.
 
 ## Configuring CircleCI for Heroku

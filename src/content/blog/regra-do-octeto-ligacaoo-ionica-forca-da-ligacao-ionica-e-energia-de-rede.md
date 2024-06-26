@@ -1,6 +1,6 @@
 ---
 id: 855ed8d402e6e1363c588bdb12b26715
-title: Regra do octeto. Ligação iônica. Força da ligação iônica e energia de rede.
+title: Regra do octeto. Ligação iônica. Força da ligação iônica e energia de rede
 description: Resumo sobre Regra do octeto, ligação iônica e energia de rede
 createdAt: '2023-08-27'
 updatedAt: '2023-09-17'

@@ -6,6 +6,7 @@ createdAt: '2023-07-01'
 updatedAt: '2023-08-21'
 tags: [programming, ai, hardware, portuguese]
 slug: why-ai-models-use-gpu-instead-cpu
+draft: true
 ---
 
 Há algum tempo, enquanto navegava no [Hacker News](https://news.ycombinator.com/), deparei-me com um post intitulado "WebGPU GPT Model Demo". Isso me fez questionar como o WebGPU se relaciona com modelos de inteligência artificial, e fiz o seguinte comentário no post:

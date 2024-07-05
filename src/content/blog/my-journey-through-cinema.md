@@ -28,6 +28,8 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Mean Girls (2004)
 - Neighbors (2014)
 - Neighbors 2 (2016)
+- A Family Affair (2024)
+- Despicable Me 4 (2024)
 
 ### 2023
 

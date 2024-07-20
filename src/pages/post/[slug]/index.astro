@@ -74,12 +74,14 @@ const { Content } = await post.render();
             <strong>Last updated at:</strong>
             <span>
               {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
-              (<Link
+              <span>
+                (<Link
                 href={`https://github.com/samueldurantes/blog/commit/${lastCommit.hash.slice(0, 7)}`}
                 isExternal
               >
                 {lastCommit.hash.slice(0, 7).trim()}
               </Link>)
+              </span>
             </span>
           </p>
         ) : null

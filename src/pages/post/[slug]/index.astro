@@ -78,7 +78,7 @@ const { Content } = await post.render();
                 href={`https://github.com/samueldurantes/blog/commit/${lastCommit.hash.slice(0, 7)}`}
                 isExternal
               >
-                {lastCommit.hash.slice(0, 7)}
+                {lastCommit.hash.slice(0, 7).trim()}
               </Link>)
             </span>
           </p>

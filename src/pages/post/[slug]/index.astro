@@ -13,7 +13,6 @@ type GitLogCommit = DefaultLogFields & ListLogLine;
 
 interface Props {
   post: CollectionEntry<'blog'>;
-  firstCommit: GitLogCommit | null; 
   lastCommit: GitLogCommit | null;
 }
 
@@ -26,13 +25,11 @@ export async function getStaticPaths() {
   const postsMapped = posts.map(async (post) => {
     const file = path.join(process.cwd(), 'src', 'content', 'blog', post.id);
 
-    let firstCommit: GitLogCommit | null = null;
     let lastCommit: GitLogCommit | null = null;
 
     try {
       const log = await git.log({ file });
 
-      firstCommit = log.all[log.all.length - 1];
       lastCommit = log.latest;
     } catch (error) {
       console.log('Error when trying to get last commit', error);
@@ -43,7 +40,6 @@ export async function getStaticPaths() {
         slug: post.slug,
       },
       props: {
-        firstCommit,
         lastCommit,
         post,
       },
@@ -53,7 +49,7 @@ export async function getStaticPaths() {
   return Promise.all(postsMapped);
 }
 
-const { post, firstCommit, lastCommit } = Astro.props;
+const { post, lastCommit } = Astro.props;
 const { Content } = await post.render();
 ---
 
@@ -66,22 +62,12 @@ const { Content } = await post.render();
       {post.data.title}
     </h1>
     <section>
-      {
-        firstCommit ? (
-          <p style={{ display: 'flex', gap: '5px' }}>
-            <strong>Created at:</strong>
-            <span>
-              {dayjs(post.data.createdAt).format('YYYY-MM-DD HH:mm')}
-              (<Link
-                href={`https://github.com/samueldurantes/blog/commit/${firstCommit.hash.slice(0, 7)}`}
-                isExternal
-              >
-                {firstCommit.hash.slice(0, 7)}
-              </Link>)
-            </span>
-          </p>
-        ) : null
-      }
+      <p style={{ display: 'flex', gap: '5px' }}>
+        <strong>Created at:</strong>
+        <span>
+          {dayjs(post.data.createdAt).format('YYYY-MM-DD')}
+        </span>
+      </p>
       {
         lastCommit ? (
           <p style={{ display: 'flex', gap: '5px' }}>

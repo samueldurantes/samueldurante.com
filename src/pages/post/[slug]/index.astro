@@ -1,31 +1,59 @@
 ---
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
+import path from 'path';
+import simpleGit, { type DefaultLogFields, type ListLogLine } from 'simple-git';
+import dayjs from 'dayjs';
 
 import Link from '../../../components/Link.astro';
 import Layout from '../../../layout/Layout.astro';
 import { SITE } from '../../../config';
 
+type GitLogCommit = DefaultLogFields & ListLogLine;
+
 interface Props {
   post: CollectionEntry<'blog'>;
+  firstCommit: GitLogCommit | null; 
+  lastCommit: GitLogCommit | null;
 }
 
 export const prerender = true;
 
 export async function getStaticPaths() {
+  const git = simpleGit();
   const posts = await getCollection('blog');
 
-  return posts.map((post) => ({
-    params: {
-      slug: post.slug,
-    },
-    props: {
-      post,
-    },
-  }));
+  const postsMapped = posts.map(async (post) => {
+    const file = path.join(process.cwd(), 'src', 'content', 'blog', post.id);
+
+    let firstCommit: GitLogCommit | null = null;
+    let lastCommit: GitLogCommit | null = null;
+
+    try {
+      const log = await git.log({ file });
+
+      firstCommit = log.all[log.all.length - 1];
+      lastCommit = log.latest;
+    } catch (error) {
+      console.log('Error when trying to get last commit', error);
+    }
+
+    return {
+      params: {
+        slug: post.slug,
+      },
+      props: {
+        firstCommit,
+        lastCommit,
+        post,
+      },
+    };
+  });
+
+  return Promise.all(postsMapped);
 }
 
-const { post } = Astro.props;
+const { post, firstCommit, lastCommit } = Astro.props;
 const { Content } = await post.render();
 ---
 
@@ -37,19 +65,41 @@ const { Content } = await post.render();
     <h1>
       {post.data.title}
     </h1>
-    <section class="dates">
-      <p>Created At: {post.data.createdAt}</p>
-      <!-- {
-        post.data.updatedAt && (
-          <>
-            <span>/</span>
-            <p>Updated At: {post.data.updatedAt}</p>
-          </>
-        )
-      } -->
-    </section>
+    <section>
+      {
+        firstCommit ? (
+          <p style={{ display: 'flex', gap: '5px' }}>
+            <strong>Created at:</strong>
+            <span>
+              {dayjs(post.data.createdAt).format('YYYY-MM-DD HH:mm')}
+              (<Link
+                href={`https://github.com/samueldurantes/blog/commit/${firstCommit.hash.slice(0, 7)}`}
+                isExternal
+              >
+                {firstCommit.hash.slice(0, 7)}
+              </Link>)
+            </span>
+          </p>
+        ) : null
+      }
+      {
+        lastCommit ? (
+          <p style={{ display: 'flex', gap: '5px' }}>
+            <strong>Last updated at:</strong>
+            <span>
+              {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
+              (<Link
+                href={`https://github.com/samueldurantes/blog/commit/${lastCommit.hash.slice(0, 7)}`}
+                isExternal
+              >
+                {lastCommit.hash.slice(0, 7)}
+              </Link>)
+            </span>
+          </p>
+        ) : null
+      }
     <section class="tags">
-      <p>Tags:</p>
+      <strong>Tags:</strong>
       {
         post.data.tags.map((tag: string) => (
           <Link href={`/tag/${tag}`}>
@@ -57,6 +107,7 @@ const { Content } = await post.render();
           </Link>
         ))
       }
+    </section>
     </section>
   </section>
   <article>
@@ -109,22 +160,13 @@ const { Content } = await post.render();
   .header {
     display: flex;
     flex-direction: column;
-    row-gap: var(--spacing);
-  }
-
-  .dates {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing);
-
-    font-style: italic;
+    row-gap: var(--spacing-2x);
   }
 
   .tags {
     display: flex;
+    align-items: center;
     column-gap: var(--spacing);
-
-    font-style: italic;
   }
 
   [data-rehype-pretty-code-title] {

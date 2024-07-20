@@ -73,29 +73,28 @@ const { Content } = await post.render();
           <p style={{ display: 'flex', gap: '5px' }}>
             <strong>Last updated at:</strong>
             <span>
-              {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
-              <span>
-                (<Link
+              {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}({' '}
+              <Link
                 href={`https://github.com/samueldurantes/blog/commit/${lastCommit.hash.slice(0, 7)}`}
                 isExternal
               >
                 {lastCommit.hash.slice(0, 7).trim()}
-              </Link>)
-              </span>
+              </Link>{' '}
+              )
             </span>
           </p>
         ) : null
       }
-    <section class="tags">
-      <strong>Tags:</strong>
-      {
-        post.data.tags.map((tag: string) => (
-          <Link href={`/tag/${tag}`}>
-            <p>#{tag}</p>
-          </Link>
-        ))
-      }
-    </section>
+      <section class="tags">
+        <strong>Tags:</strong>
+        {
+          post.data.tags.map((tag: string) => (
+            <Link href={`/tag/${tag}`}>
+              <p>#{tag}</p>
+            </Link>
+          ))
+        }
+      </section>
     </section>
   </section>
   <article>

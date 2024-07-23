@@ -35,6 +35,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - The Hangover (2009)
 - The Hangover Part II (2011)
 - The Hangover Part III (2013)
+- Duplex (2003)
 
 ### 2023
 

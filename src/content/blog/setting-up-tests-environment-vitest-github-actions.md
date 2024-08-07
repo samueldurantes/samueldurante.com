@@ -1,6 +1,6 @@
 ---
 id: 10cda3aa3db1d0425715a993270b9841
-title: Setting up tests environment with Docker, Vitest, and GitHub Actions
+title: Setting up tests environment with PostgreSQL, Docker, Vitest, and GitHub Actions
 createdAt: '2024-08-06'
 tags: [english, programming, testing]
 slug: setting-up-tests-environment-vitest-github-actions

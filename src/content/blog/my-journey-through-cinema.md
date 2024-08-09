@@ -37,6 +37,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - The Hangover Part III (2013)
 - Duplex (2003)
 - Boyhood (2014)
+- Leatherface (2017)
 
 ### 2023
 

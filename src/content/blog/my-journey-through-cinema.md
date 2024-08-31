@@ -38,6 +38,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Duplex (2003)
 - Boyhood (2014)
 - Leatherface (2017)
+- Incoming (2024)
 
 ### 2023
 

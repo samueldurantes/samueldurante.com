@@ -39,6 +39,7 @@ This post is inspired by a [collection](https://laramendon.ca/collections/cinema
 - Boyhood (2014)
 - Leatherface (2017)
 - Incoming (2024)
+- Bridge of Terabithia (2007)
 
 ### 2023
 

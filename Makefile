@@ -1,8 +1,7 @@
 PROD ?= 0
-FLAGS := --printI18nWarnings
 
 ifeq ($(PROD),0)
-	FLAGS += --buildDrafts
+	FLAGS := --buildDrafts
 endif
 
 .PHONY: install

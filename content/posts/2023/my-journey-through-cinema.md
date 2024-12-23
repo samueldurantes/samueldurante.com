@@ -1,0 +1,201 @@
+---
+title: My journey through cinema
+date: '2023-01-14'
+---
+
+### 2024
+
+- The Matrix (1999)
+- Parasite (2019)
+- The Judge (2014)
+- Bingo: The King of the Mornings (2017)
+- Horrible Bosses (2011)
+- Horrible Bosses 2 (2014)
+- Anyone But You (2023)
+- Einstein and the Bomb (2024)
+- Partiu América (2024)
+- The Clovehitch Killer (2018)
+- Gone Girl (2014)
+- The Aviator (2004)
+- Disturbia (2007)
+- Mean Girls (2004)
+- Neighbors (2014)
+- Neighbors 2 (2016)
+- A Family Affair (2024)
+- Despicable Me 4 (2024)
+- Leave the World Behind (2023)
+- Hope Springs (2012)
+- The Hangover (2009)
+- The Hangover Part II (2011)
+- The Hangover Part III (2013)
+- Duplex (2003)
+- Boyhood (2014)
+- Leatherface (2017)
+- Incoming (2024)
+- Bridge of Terabithia (2007)
+- Deadpool & Wolverine (2024)
+
+### 2023
+
+- Starter for 10 (2006)
+- Puss in Boots: The Last Wish (2022)
+- Black Mass (2015)
+- Before Sunrise (1995)
+- Just Like Heaven (2005)
+- Love and Other Drugs (2010) ★
+- 13 Going on 30 (2004)
+- Scent of a Woman (1992) ★
+- Carandiru (2003)
+- My Best Friend's Wedding (1997)
+- The Great Gatsby (2013) ★
+- Risk Business (1983)
+- Harry Potter and the Philosopher's Stone (2001)
+- Harry Potter and the Chamber of Secrets (2002)
+- Harry Potter and the Prisoner of Azkaban (2004)
+- Harry Potter and the Goblet of Fire (2005)
+- Harry Potter and the Order of Phoenix (2007)
+- Harry Potter and the Half-Blood Prince (2009)
+- Harry Potter and the Deathly Hallows: Part 1 (2010)
+- Harry Potter and the Deathly Hallows: Part 2 (2011)
+- Django Unchained (2012) ★
+- Pulp Fiction (1994)
+- John Wick: Chapter 4 (2023)
+- Godfellas (1990)
+- The Shawshank Redemption (1994) ★
+- A Clockwork Orange (1971)
+- Knocked Up (2007) ★
+- The Big Short (2015)
+- Two Weeks Notice (2002)
+- Shutter Island (2010) ★
+- Drive (2011)
+- Licorice Pizza (2021)
+- Bullet Train (2022)
+- Closer (2004)
+- Elis (2016)
+- City of God (2002)
+- The Perfect Man (2005)
+- Spider-Man: Across the Spider-Verse (2023)
+- Interstellar (2014) ★
+- Legend (2015)
+- Dead Poets Society (1989) ★
+- Back to the Future (1985)
+- Back to the Future Part II (1989)
+- Oppenheimer (2023) ★
+- Batman (2022)
+- Wedding Daze (2006)
+- Pretty Woman (1990)
+- The Devil Wears Prada (2006)
+- Constantine (2005) ★
+- Titanic (1997)
+- Seven Years in Tibet (1997)
+- Notting Hill (1999)
+- Sing Street (2016)
+- (500) Days of Summer (2009)
+- No Hard Feelings (2023)
+- Under the Silver Lake (2018) ★
+- Inception (2010) ★
+- The Talented Mr. Ripley (1999)
+- It (2017)
+- What's Eating Gilbert Grape (1993)
+- Napoleon (2023)
+- The Revenant (2015)
+
+### Past
+
+- The Godfather (1972)
+- The Godfather: Part II (1974)
+- Eternal Shine of a Spotless Mind (2004) ★
+- The Perks of Being a Wallflower (2012)
+- Forrest Gump (1994) ★
+- Catch Me If You Can (2002)
+- Taxi Driver (1976) ★
+- Irishman (2019)
+- Silver Linings Playbook (2012) ★
+- Girl, Interrupted (1999) ★
+- 8 Mile (2002)
+- Spider-Man (2002)
+- Spider-Man 2 (2004)
+- Spider-Man 3 (2007)
+- Spider-Man: Into the Spider-Verse (2018)
+- Bohemian Rhapsody (2018)
+- The 40-Year-Old Virgin (2005) ★
+- John Wick (2014)
+- John Wick: Chapter 2 (2017)
+- John Wick: Chapter 3 - Parabellum (2019)
+- Fight Club (1999) ★
+- V for Vendetta (2006) ★
+- Once Upon a Time in Hollywood (2019) ★
+- The Wolf of Wall Street (2013)
+- Joker (2019)
+- Batman Begins (2005)
+- The Dark Knight (2008)
+- The Dark Knight Rises (2012)
+- American Psycho (2000) ★
+- Akira (1988)
+- Your Name (2016)
+- The Intern (2015)
+- Scott Pilgrim vs. the World (2010)
+- Superbad (2007) ★
+- Juno (2007)
+- This Is the End (2013)
+- School of Rock (2003)
+- Jumanji: Welcome to the Jungle (2017)
+- Nick and Norah's Infinite Playlist (2008)
+- Charlie Bartlett (2007)
+- Uncut Gems (2019)
+- Hubie Halloween (2020)
+- Men, Women & Children (2014)
+- Big Daddy (1999)
+- Grown Ups (2010)
+- Grown Ups 2 (2013)
+- Dodgeball: A True Underdog Story (2004)
+- You Don't Mess with the Zohan (2008)
+- I Now Pronounce You Chuck & Larry (2007)
+- 50 First Dates (2004)
+- Murder Mystery (2019)
+- Blended (2014)
+- Just Go with It (2011)
+- The Curious Case of Benjamin Button (2008) ★
+- Inglourious Basterds (2009) ★
+- The Social Network (2010)
+- Moneyball (2011)
+- BlacKkKlansman (2018)
+- A Beautiful Mind (2001)
+- Moonrise Kingdom (2012)
+- Submarine (2010)
+- Lost in Translation (2003)
+- Project X (2012) ★
+- Accepted (2006)
+- 30 Minutes or Less (2011)
+- The Revised Fundamentals of Caregiving (2016)
+- Clueless (1995) ★
+- This Is the End (2013)
+- Mid90s (2018)
+- Little Women (2019)
+- Lady Bird (2017)
+- The King (2019)
+- Hot Summer Nights (2017)
+- Sonic (2020)
+- Bruce Almighty (2003)
+- Lemony Snicket's A Series of Unfortunate Events (2004)
+- Going in Style (2017)
+- Se7en (1995) ★
+- Trainwreck (2015)
+- It: Chapter 2 (2019)
+- Focus (2015)
+- The Butterfly Effect (2004) ★
+- Jobs (2013) ★
+- Steve Jobs (2015)
+- The Da Vinci Code (2006)
+- Cast Away (2001)
+- The Professional (1994)
+- The Breakfast Club (1985) ★
+- Ferris Bueller’s Day Off (1986)
+- 20th Century Women (2016)
+- All the Bright Places (2020)
+- Oh, Ramona! (2019)
+- Paper Towns (2015)
+- The Fault in Our Stars (2014)
+- Pawn Sacrifice (2014) ★
+- Good Will Hunting (1997) ★
+- Sleepers (1996)

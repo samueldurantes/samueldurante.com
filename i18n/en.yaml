@@ -1,9 +1,0 @@
-site:
-  home: Home
-  about: About
-
-page:
-  created_at: Created at
-  updated_at: Updated at
-  translations: Translations
-  improve: improve this page

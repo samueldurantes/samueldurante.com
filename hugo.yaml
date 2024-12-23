@@ -14,16 +14,7 @@ params:
     branch: main
 
 permalinks:
-  posts: '/post/:slugorfilename'
-
-defaultContentLanguage: en
-languages:
-  en:
-    languageCode: en-US
-    languageName: English
-  pt:
-    languageCode: pt-BR
-    languageName: Português
+  posts: "/post/:slugorfilename"
 
 markup:
   highlight:

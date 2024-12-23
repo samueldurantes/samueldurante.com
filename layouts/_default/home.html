@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <header class="header">
+    <h1 class="title">{{ .Site.Title }}'s blog</h1>
+    <div>
+      Reach me on:
+      <a href="{{ .Site.Params.Github.Url }}" target="_blank">GitHub</a>
+      /
+      <a href="{{ .Site.Params.Twitter.Url }}" target="_blank">Twitter</a>
+    </div>
+  </header>
+
+  <div id="home-inner">
+    {{ .Content }}
+  </div>
+
+  <div class="posts">
+    <h3>Posts</h3>
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    <ul>
+      {{ range $posts }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ if .Draft }}
+            <span style="font-weight: bold; color: rgb(177, 84, 3);">
+              (draft)
+            </span>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

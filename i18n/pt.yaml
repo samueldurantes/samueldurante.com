@@ -1,0 +1,9 @@
+site:
+  home: Início
+  about: Sobre
+
+page:
+  created_at: Criado em
+  updated_at: Atualizado em
+  translations: Traduções
+  improve: melhore esta página

@@ -1,0 +1,30 @@
+baseURL: /
+title: Samuel Durante
+enableGitInfo: true
+
+params:
+  github:
+    url: https://github.com/samueldurantes
+
+  twitter:
+    url: https://x.com/samueldurantes
+
+  repo:
+    url: https://github.com/samueldurantes/samueldurante.com
+    branch: main
+
+permalinks:
+  posts: '/post/:slugorfilename'
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageCode: en-US
+    languageName: English
+  pt:
+    languageCode: pt-BR
+    languageName: Português
+
+markup:
+  highlight:
+    noClasses: false

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{ .Language.LanguageCode }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {{ if .IsHome }}
+        {{ .Site.Title }}'s blog
+      {{ else }}
+        {{ .Title }} | {{ .Site.Title }}'s blog
+      {{ end }}
+    </title>
+
+    {{ $opts := dict "inlineImports" true }}
+    {{ with resources.Get "css/styles.css" | postCSS $opts }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" />
+    {{ end }}
+  </head>
+  <body>
+    <div id="site">
+      <nav class="nav">
+        {{ if not .IsHome }}
+          <a href="{{ .Site.Home.RelPermalink }}">↫ {{ i18n "site.home" }}</a>
+        {{ end }}
+
+        {{ if .IsTranslated }}
+          <div class="translations">
+            {{ partial "icon/translation.svg" }}
+            {{ range .Translations }}
+              <a href="{{ .RelPermalink }}">{{ .Language.LanguageCode }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </nav>
+
+      <div id="site-content" class="{{ .Kind }}">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </div>
+
+    {{ with resources.Get "js/page.js" | js.Build }}
+      <script src="{{ .RelPermalink }}"></script>
+    {{ end }}
+  </body>
+</html>

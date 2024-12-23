@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
+    "prettier": "3.3.2",
+    "prettier-plugin-go-template": "0.0.15"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-go-template"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "*.html"
+        ],
+        "options": {
+          "parser": "go-template"
+        }
+      }
+    ],
+    "proseWrap": "always"
+  }
+}

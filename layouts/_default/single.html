@@ -1,0 +1,30 @@
+{{ define "main" }}
+  <header class="header">
+    <h1 class="title">{{ .Title }}</h1>
+    
+    {{ $datetime := time.Format "2006-01-02" .Date }}
+    <div class="subtitle">
+      <time datetime="{{ $datetime }}">
+        <strong>{{ i18n "page.created_at" }}:</strong> {{ .Date | time.Format ":date_long" }}
+      </time>
+      <time datetime="{{ $datetime }}">
+        <strong>{{ i18n "page.updated_at" }}:</strong> {{ .Lastmod | time.Format ":date_long" }} (<a href="{{ $.Site.Params.repo.url }}/commit/{{ .GitInfo.Hash }}" target="_blank">{{ .GitInfo.AbbreviatedHash }}</a>)
+      </time>
+    </div>
+  </header>
+
+  <div id="content">
+    {{ .Content }}
+  </div>
+{{ end }}
+
+{{ define "footer-item" }}
+  <div>&middot;</div>
+  <div>
+    {{ with .Site.Params.repo }}
+      <a href="{{ .url }}/blob/{{ .branch }}/content/{{ $.File.Path }}">
+        {{ i18n "page.improve" }}</a
+      >
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,157 @@
+:root {
+  --bg: #fff;
+  --bg-d1: #ddd;
+  --fg: #1e1e24;
+  --fg-l1: #2a2a31;
+  --fg-l2: #34343c;
+  --border: rgb(0 0 0 / 10%);
+  --link: #0071e3;
+  --accent: orangered;
+}
+
+* {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link);
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: var(--accent);
+  }
+}
+
+/*******************************************************************************
+ * Site structure
+ ******************************************************************************/
+
+#site {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 2rem;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#home-inner {
+  margin-bottom: 2rem;
+}
+
+.nav {
+  height: 30px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+
+  .translations {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 0.4rem;
+    font-size: 0.8em;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*******************************************************************************
+ * Typographic Elements
+ ******************************************************************************/
+
+#content {
+  margin-bottom: 2rem;
+
+  a.footnote-ref {
+    &::before {
+      content: "[";
+    }
+    &::after {
+      content: "]";
+    }
+  }
+
+  hr {
+    border: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--border);
+  }
+
+  & > * {
+    margin-bottom: 1rem;
+  }
+
+  .footnotes {
+    & > hr {
+      margin-bottom: 1rem;
+    }
+  }
+
+  blockquote {
+    border-left: solid 4px var(--bg-d1);
+    padding: 0.5rem 1rem;
+    color: var(--fg-l2);
+  }
+
+  pre {
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow-x: scroll;
+
+    &.chroma {
+      background-color: unset !important;
+    }
+
+    @media (max-width: 900px) {
+      margin-left: 1rem;
+    }
+  }
+}

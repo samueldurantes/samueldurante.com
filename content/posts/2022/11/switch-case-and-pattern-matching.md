@@ -64,7 +64,7 @@ printColor color =
 
 We forgot the `Blue` pattern.
 
-![image](/assets/switch-case-and-pattern-matching/1.png)
+![1](/images/switch-case-and-pattern-matching/1.png)
 
 This is important to prevent bugs and ensure that the code is complete and correct.
 

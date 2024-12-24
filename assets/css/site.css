@@ -146,4 +146,8 @@ a {
     overflow-x: scroll;
     font-size: 85%;
   }
+
+  img {
+    width: 100%;
+  }
 }

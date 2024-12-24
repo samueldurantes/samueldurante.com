@@ -19,3 +19,10 @@ permalinks:
 markup:
   highlight:
     noClasses: false
+
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: assets/images
+      target: static/images

@@ -142,16 +142,8 @@ a {
 
   pre {
     padding: 1rem;
-    border: 1px solid #000;
-    border-radius: 5px;
+    background-color: #f6f8fa !important;
     overflow-x: scroll;
-
-    &.chroma {
-      background-color: unset !important;
-    }
-
-    @media (max-width: 900px) {
-      margin-left: 1rem;
-    }
+    font-size: 85%;
   }
 }

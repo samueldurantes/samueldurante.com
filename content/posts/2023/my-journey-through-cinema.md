@@ -34,6 +34,7 @@ date: '2023-01-14'
 - Incoming (2024)
 - Bridge of Terabithia (2007)
 - Deadpool & Wolverine (2024)
+- Beetlejuice Beetlejuice (2024)
 
 ### 2023
 

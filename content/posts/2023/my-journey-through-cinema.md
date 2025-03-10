@@ -3,6 +3,12 @@ title: My journey through cinema
 date: '2023-01-14'
 ---
 
+### 2025
+
+- The Gentlemen (2019)
+- I'm Still Here (2024)
+- The Departed (2007) ★
+
 ### 2024
 
 - The Matrix (1999)

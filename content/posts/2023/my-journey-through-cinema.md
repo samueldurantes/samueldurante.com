@@ -8,6 +8,8 @@ date: '2023-01-14'
 - The Gentlemen (2019)
 - I'm Still Here (2024)
 - The Departed (2007) ★
+- Striptease (1996)
+- The Girl with the Dragon Tattoo (2011)
 
 ### 2024
 

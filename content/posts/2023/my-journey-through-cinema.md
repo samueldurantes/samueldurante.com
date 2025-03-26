@@ -10,6 +10,7 @@ date: '2023-01-14'
 - The Departed (2007) ★
 - Striptease (1996)
 - The Girl with the Dragon Tattoo (2011)
+- Yes Man (2008)
 
 ### 2024
 

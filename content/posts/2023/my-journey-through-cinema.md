@@ -12,6 +12,7 @@ date: '2023-01-14'
 - The Girl with the Dragon Tattoo (2011)
 - Yes Man (2008)
 - Thunderbolts* (2025)
+- Zodiac (2007)
 
 ### 2024
 

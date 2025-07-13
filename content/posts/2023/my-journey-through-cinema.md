@@ -13,6 +13,7 @@ date: '2023-01-14'
 - Yes Man (2008)
 - Thunderbolts* (2025)
 - Zodiac (2007)
+- Mickey 17 (2025)
 
 ### 2024
 

@@ -15,6 +15,8 @@ date: '2023-01-14'
 - Zodiac (2007)
 - Mickey 17 (2025)
 - Memento (2000)
+- The Fantastic Four: First Steps (2025)
+- The Conjuring: Last Rites (2025)
 
 ### 2024
 

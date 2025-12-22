@@ -15,6 +15,10 @@ date: '2023-01-14'
 - Zodiac (2007)
 - Mickey 17 (2025)
 - Memento (2000)
+- The Silence of the Lambs (1991) ★
+- How the Grinch Stole Christmas (2000)
+- Kill Bill: Vol. 1 (2003)
+- Kill Bill: Vol. 2 (2004)
 
 ### 2024
 

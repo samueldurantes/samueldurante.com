@@ -10,6 +10,7 @@ date: '2023-01-14'
 - Eyes Wide Shut (1999)
 - The Housemaid (2025)
 - Marty Supreme (2025)
+- A Time to Kill (1996)
 
 ### 2025
 

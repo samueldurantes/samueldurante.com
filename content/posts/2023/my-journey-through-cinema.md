@@ -11,6 +11,8 @@ date: '2023-01-14'
 - The Housemaid (2025)
 - Marty Supreme (2025)
 - A Time to Kill (1996)
+- War Machine (2026)
+- Vanilla Sky (2001) ★
 
 ### 2025
 

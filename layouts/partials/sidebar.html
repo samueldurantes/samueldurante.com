@@ -1,0 +1,17 @@
+<nav class="sidebar">
+  <div class="sidebar-name">{{ .Site.Title }}</div>
+  <ul>
+    <li><a href="{{ .Site.Home.RelPermalink }}">About</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/cinema/">Cinema</a></li>
+  </ul>
+
+  {{ if .IsTranslated }}
+    <div class="translations">
+      {{ partial "icon/translation.svg" }}
+      {{ range .Translations }}
+        <a href="{{ .RelPermalink }}">{{ .Language.LanguageCode }}</a>
+      {{ end }}
+    </div>
+  {{ end }}
+</nav>

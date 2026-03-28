@@ -1,0 +1,25 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<p>Log of movies I’ve watched.</p>
+
+{{ $content := .RawContent }} {{ $sections := split $content "### " }} {{ range
+$sections }} {{ if and . (not (eq (len (trim . "\n \r")) 0)) }} {{ $lines :=
+split . "\n" }} {{ $year := index $lines 0 }}
+
+<h3>{{ $year }}</h3>
+<div class="movie-grid">
+  {{ range $lines }} {{ if hasPrefix . "- " }} {{ $raw := substr . 2 }} {{
+  $clean := replaceRE `\s*★$` "" $raw }} {{ $title := replaceRE `\s*\(\d{4}\)$`
+  "" $clean }} {{ $slug := $title | lower | replaceRE `[^a-z0-9]+` "-" |
+  replaceRE `^-|-$` "" }}
+  <div class="movie-card">
+    <img
+      src="/images/cinema/{{ $slug }}.jpg"
+      alt="{{ $title }}"
+      onerror="this.style.display='none'"
+    />
+    <span>{{ $raw }}</span>
+  </div>
+  {{ end }} {{ end }}
+</div>
+{{ end }} {{ end }} {{ end }}

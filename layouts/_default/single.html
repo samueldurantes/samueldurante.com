@@ -1,22 +1,21 @@
 {{ define "main" }}
-  <header class="header">
-    <h1 class="title">{{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
 
-    {{ $datetime := time.Format "2006-01-02" .Date }}
-    <div class="subtitle">
-      <time datetime="{{ $datetime }}">
-        <strong>Created at:</strong> {{ .Date | time.Format ":date_long" }}
-      </time>
-      <time datetime="{{ $datetime }}">
-        <strong>Updated at:</strong> {{ .Lastmod | time.Format ":date_long" }}
-        (<a
-          href="{{ $.Site.Params.repo.url }}/commit/{{ .GitInfo.Hash }}"
-          target="_blank"
-          >{{ .GitInfo.AbbreviatedHash }}</a
-        >)
-      </time>
-    </div>
-  </header>
+  {{ $datetime := time.Format "2006-01-02" .Date }}
+  <p class="post-meta">
+    <time datetime="{{ $datetime }}">
+      <strong>Created at:</strong> {{ .Date | time.Format ":date_long" }}
+    </time>
+    <br />
+    <time datetime="{{ $datetime }}">
+      <strong>Updated at:</strong> {{ .Lastmod | time.Format ":date_long" }}
+      (<a
+        href="{{ $.Site.Params.repo.url }}/commit/{{ .GitInfo.Hash }}"
+        target="_blank"
+        >{{ .GitInfo.AbbreviatedHash }}</a
+      >)
+    </time>
+  </p>
 
   <div id="content">
     {{ .Content }}

@@ -1,2 +1,15 @@
 {{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  <ul>
+    {{ range $posts }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ if .Draft }}
+          <span class="draft-label">(draft)</span>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
 {{ end }}

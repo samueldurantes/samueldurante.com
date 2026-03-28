@@ -1,16 +1,16 @@
 :root {
-  --bg: #fff;
-  --bg-d1: #ddd;
-  --fg: #1e1e24;
-  --fg-l1: #2a2a31;
-  --fg-l2: #34343c;
+  --fg: #333;
+  --link: #0000ee;
+  --link-visited: #551a8b;
   --border: rgb(0 0 0 / 10%);
-  --link: #0071e3;
+  --bg-d1: #ddd;
+  --fg-l2: #555;
   --accent: orangered;
 }
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 *,
@@ -25,20 +25,17 @@ body {
 }
 
 body {
-  background-color: var(--bg);
   color: var(--fg);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
-  font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: serif;
 }
 
 a {
-  text-decoration: none;
   color: var(--link);
 
-  &:hover {
-    text-decoration: underline;
+  &:visited {
+    color: var(--link-visited);
   }
 
   &:active {
@@ -47,62 +44,109 @@ a {
 }
 
 /*******************************************************************************
- * Site structure
+ * Two-column layout: sidebar left, content right
  ******************************************************************************/
 
 #site {
-  max-width: 800px;
+  display: flex;
   margin: 0 auto;
-  padding: 1rem;
-  padding-top: 2rem;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+  padding: 30px 20px;
 }
 
-#home-inner {
-  margin-bottom: 2rem;
+.sidebar {
+  width: 180px;
+  flex-shrink: 0;
+  text-align: left;
 }
 
-.nav {
-  height: 30px;
+.sidebar-name {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+.translations {
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 1.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85em;
+  margin-top: 0.5rem;
 
-  .translations {
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    gap: 0.4rem;
-    font-size: 0.8em;
-
-    svg {
-      width: 16px;
-      height: 16px;
-    }
+  svg {
+    width: 14px;
+    height: 14px;
   }
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  margin-bottom: 1.5rem;
+.content {
+  flex: 1;
+  max-width: 600px;
+}
 
-  h1 {
-    font-size: 1.8em;
-  }
-
-  .subtitle {
-    display: flex;
-    flex-direction: column;
-  }
+.content.layout-cinema {
+  max-width: 100%;
 }
 
 /*******************************************************************************
- * Typographic Elements
+ * Home
+ ******************************************************************************/
+
+.content p {
+  margin-bottom: 1em;
+}
+
+.content ul,
+.content ol {
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+.content li {
+  margin-bottom: 0.3em;
+}
+
+.content h2 {
+  font-size: 1.1em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.content h3 {
+  font-size: 1.5em;
+  margin: 1.5em 0;
+}
+
+.draft-label {
+  font-weight: bold;
+  color: rgb(177, 84, 3);
+}
+
+/*******************************************************************************
+ * Single post
+ ******************************************************************************/
+
+.content h1 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: var(--fg-l2);
+  margin-bottom: 1.5em;
+}
+
+/*******************************************************************************
+ * Article content
  ******************************************************************************/
 
 #content {
@@ -122,6 +166,7 @@ a {
     width: 100%;
     height: 1px;
     background-color: var(--border);
+    margin: 1em 0;
   }
 
   & > * {
@@ -145,9 +190,70 @@ a {
     background-color: #f6f8fa !important;
     overflow-x: scroll;
     font-size: 85%;
+    font-family: monospace;
   }
 
   img {
-    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/*******************************************************************************
+ * Cinema
+ ******************************************************************************/
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+  gap: 2.5em 1em;
+  margin-bottom: 2em;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.movie-card span {
+  margin-top: 0.3em;
+  font-size: 1.1em;
+}
+
+/*******************************************************************************
+ * Responsive
+ ******************************************************************************/
+
+@media (max-width: 640px) {
+  #site {
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  .sidebar {
+    width: auto;
+    text-align: left;
+    padding-right: 0;
+    margin-bottom: 1.5em;
+  }
+
+  .sidebar ul {
+    display: flex;
+    gap: 1em;
+  }
+
+  .translations {
+    justify-content: flex-start;
+  }
+
+  .content {
+    max-width: 100%;
   }
 }

@@ -1,6 +1,6 @@
 ---
-title: My journey through cinema
-date: '2023-01-14'
+title: Cinema
+layout: cinema
 ---
 
 ### 2026
@@ -218,7 +218,7 @@ date: '2023-01-14'
 - Cast Away (2001)
 - The Professional (1994)
 - The Breakfast Club (1985) ★
-- Ferris Bueller’s Day Off (1986)
+- Ferris Bueller's Day Off (1986)
 - 20th Century Women (2016)
 - All the Bright Places (2020)
 - Oh, Ramona! (2019)

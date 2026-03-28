@@ -13,9 +13,6 @@ params:
     url: https://github.com/samueldurantes/samueldurante.com
     branch: main
 
-  tmdb:
-    apiKey: c6aa5f3ffa2946a5b069acd9217f1b76
-
 permalinks:
   posts: "/post/:slugorfilename"
 

@@ -13,6 +13,7 @@ layout: cinema
 - A Time to Kill (1996)
 - War Machine (2026)
 - Vanilla Sky (2001) ★
+- Donnie Darko (2001)
 
 ### 2025
 

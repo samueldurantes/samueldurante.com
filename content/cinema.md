@@ -14,6 +14,8 @@ layout: cinema
 - War Machine (2026)
 - Vanilla Sky (2001) ★
 - Donnie Darko (2001)
+- Failure to Launch (2006)
+- Project Hail Mary (2026) ★
 
 ### 2025
 
@@ -228,3 +230,4 @@ layout: cinema
 - Pawn Sacrifice (2014) ★
 - Good Will Hunting (1997) ★
 - Sleepers (1996)
+- Step Brothers (2008)

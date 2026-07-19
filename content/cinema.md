@@ -16,6 +16,10 @@ layout: cinema
 - Donnie Darko (2001)
 - Failure to Launch (2006)
 - Project Hail Mary (2026) ★
+- No Country for Old Men (2026)
+- Toy Story 5 (2026)
+- The Drama (2026)
+- About Time (2013)
 
 ### 2025
 
